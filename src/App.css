@@ -3,10 +3,45 @@
   background-color: #36453B;
   float: none;
   margin: 0 auto;
-  margin-top: 1.5%;
-  width: 97%;
-  height: 97%;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
+
+#top, #bottom, #left, #right {
+			background: #F5F9E9;
+      z-index: 9999;
+			}
+			#left, #right {
+				position: fixed;
+				top: 0; bottom: 0;
+				width: 25px;
+				}
+				#left { left: 0; }
+				#right { right: 0; }
+
+			#top, #bottom {
+				position: fixed;
+				left: 0; right: 0;
+				height: 25px;
+				}
+				#top { top: 0; }
+				#bottom { bottom: 0; }
+
+.header-app{
+  width: 100%;
+ height: 100%;
+ position: absolute;
+  z-index: 10;
+
+}
+
+.carousel-app{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

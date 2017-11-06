@@ -5,6 +5,7 @@
 .Frame-header{
   width:100%;
   height:auto;
+  position: relative;
 }
 
 nav {
@@ -23,7 +24,7 @@ nav {
 nav a.nav-brand {}
 
 .logo{
-  margin-top: 50%;
+  margin-top: 75%;
   width:150px;
   height: auto;
 }

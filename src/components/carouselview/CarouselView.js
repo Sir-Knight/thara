@@ -1,49 +1,125 @@
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import React, { Component } from 'react';
 import './CarouselView.css';
-import $ from 'jquery';
-import 'slick-carousel';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import picture1 from './picture1.jpeg';
+import picture2 from './picture2.jpeg';
+import picture3 from './picture3.jpeg';
+
 
 export default class CarouselView extends Component {
-  componentDidMount(){
-      $('.carousel').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        centerMode: false,
-        variableWidth: false,
-        autoplay: true,
-        arrows: false
-      });
-  }
-  render() {
-    return (
-      <div className="carousel-view">
-      <div className="carousel">
-          <div className="item">
-          <div className="imageContainer">
-            <img src="https://cdni.condenast.co.uk/1566x878/s_v/suki-film-vogue-9jul15-grab_b2.jpg" />
-          </div>
-          </div>
-          <div className="item">
-          <div className="imageContainer">
-            <img src="https://cdni.condenast.co.uk/1566x878/o_r/Olivia-Vestiaire-HOLDING-Still-02-36-vogue-1jul15-grab_878.jpg" />
-          </div>
+  constructor(props) {
+   super(props);
+   this.state = {
+     items: [
+       picture1,
+       picture2,
+       picture3
+     ],
+     current: 0,
+     isNext: true
+   };
 
-          </div>
-          <div className="item">
-          <div className="imageContainer">
-            <img src="https://cdni.condenast.co.uk/1566x878/s_v/tennis-film-still-1-vogue-29jun15-grab_b.jpg" />
-          </div>
-          </div>
+   this.handlerPrev = this.handlerPrev.bind(this);
+   this.handlerNext = this.handlerNext.bind(this);
+   this.goToHistoryClick = this.goToHistoryClick.bind(this);
+ }
 
+ handlerPrev() {
+   let index = this.state.current,
+       length = this.state.items.length;
 
+   if( index < 1 ) {
+     index = length;
+   }
+
+   index = index - 1;
+
+   this.setState({
+     current: index,
+     isNext: false
+   });
+ }
+
+ handlerNext() {
+   let index = this.state.current,
+       length = this.state.items.length - 1;
+
+   if( index === length ) {
+     index = -1;
+   }
+
+   index = index + 1;
+
+   this.setState({
+     current: index,
+     isNext: true
+   });
+ }
+
+ goToHistoryClick( curIndex, index ) {
+   let next = (curIndex < index);
+   this.setState({
+     current: index,
+     isNext: next
+   });
+ }
+
+ render(){
+   let index = this.state.current,
+       isnext = this.state.isNext,
+       src = this.state.items[index];
+
+   return (
+     <div className="carousel-view">
+       <div className="carousel">
+        <ReactCSSTransitionGroup
+           transitionName={{
+           enter: isnext ? 'enter-next' : 'enter-prev',
+           enterActive: 'enter-active',
+           leave: 'leave',
+           leaveActive: isnext ? 'leave-active-next' : 'leave-active-prev'
+         }}
+          >
+            <div className="carousel_slide" key={index}>
+              <img src={src}/>
+            </div>
+          </ReactCSSTransitionGroup>
+          <button className="carousel_control carousel_control__prev" onClick={this.handlerPrev}><span></span></button>
+          <button className="carousel_control carousel_control__next" onClick={this.handlerNext}><span></span></button>
+         <div className="carousel_history">
+           <History
+             current={this.state.current}
+             items={this.state.items}
+             changeSilde={this.goToHistoryClick}
+           />
           </div>
+         </div>
+     </div>
+   )
+ }
+}
 
-      </div>
+class History extends React.Component {
+ constructor(props) {
+   super(props);
+ }
 
-    );
-  }
+ render() {
+   let current = this.props.current;
+   let items = this.props.items.map( (el, index) => {
+     let name = (index === current) ? 'active' : '';
+     return (
+       <li key={index}>
+         <button
+           className={name}
+           onClick={ () => this.props.changeSilde(current, index) }
+         ></button>
+       </li>
+     )
+   });
+
+   return (
+     <ul>{items}</ul>
+   )
+ }
 }
