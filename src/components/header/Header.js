@@ -35,10 +35,10 @@ componentDidMount(){
 
           <div className="overlay">
               <ul className="menu-options-list">
-                <li className="menu-option option-1"><a href="#">หน้าหลัก<span>.</span></a></li>
-                <li className="menu-option option-2"><a href="#">เกี่ยวกับโครงการ<span>.</span></a></li>
-                <li className="menu-option option-3"><a href="#">ข้อมูล<span>.</span></a></li>
-                <li className="menu-option option-5"><a href="#">ติดต่อ<span>.</span></a></li>
+                <li className="menu-option option-1"><a className="link link--surinami" href="#"><span data-letters-l="หน้า" data-letters-r="หลัก">หน้าหลัก</span></a></li>
+                <li className="menu-option option-2"><a className="link link--surinami" href="#"><span data-letters-l="เกี่ยวกับ" data-letters-r="โครงการ">เกี่ยวกับโครงการ</span></a></li>
+                <li className="menu-option option-3"><a className="link link--surinami" href="#"><span data-letters-l="ข้อ" data-letters-r="มูล">ข้อมูล</span></a></li>
+                <li className="menu-option option-5"><a className="link link--surinami" href="#"><span data-letters-l="ติด" data-letters-r="ต่อ">ติดต่อ</span></a></li>
               </ul>
           </div>
         </div>
