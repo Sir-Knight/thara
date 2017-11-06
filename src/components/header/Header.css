@@ -5,7 +5,8 @@
 .Frame-header{
   width:100%;
   height:auto;
-  position: relative;
+  overflow: hidden;
+    position: fixed;
 }
 
 nav {
