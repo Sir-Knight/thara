@@ -125,47 +125,28 @@ button:focus {outline:0;}
 }
 
 .leave {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  opacity: 1;
 }
 
 .enter-active.enter-next, .enter-active.enter-prev {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: -webkit-transform 500ms linear;
-  transition: -webkit-transform 500ms linear;
-  transition: transform 500ms linear;
-  transition: transform 500ms linear, -webkit-transform 500ms linear;
+  opacity: 1;
+  transition: opacity 500ms ease-in;
 }
 
 .enter-next {
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+    opacity: 0.9;
 }
 
 .enter-prev {
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-transition: -webkit-transform 500ms linear;
-  transition: -webkit-transform 500ms linear;
-  transition: transform 500ms linear;
-  transition: transform 500ms linear, -webkit-transform 500ms linear;
+  opacity: 0.9;
 }
 
 .leave-active-next {
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-transition: -webkit-transform 500ms linear;
-  transition: -webkit-transform 500ms linear;
-  transition: transform 500ms linear;
-  transition: transform 500ms linear, -webkit-transform 500ms linear;
+  opacity: 0.01;
+   transition: opacity 500ms ease-in;
 }
 
 .leave.leave-active-prev {
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-transition: -webkit-transform 500ms linear;
-  transition: -webkit-transform 500ms linear;
-  transition: transform 500ms linear;
-  transition: transform 500ms linear, -webkit-transform 500ms linear;
+  opacity: 0.01;
+   transition: opacity 500ms ease-in;
 }
