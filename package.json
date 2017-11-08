@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animated": "^0.2.0",
     "antd": "^2.13.8",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -14,7 +15,9 @@
     "react-dom": "^16.0.0",
     "react-responsive": "^3.0.0",
     "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-slick": "^0.15.4",
+    "react-transition-group": "^2.2.1",
     "webpack": "^3.8.1"
   },
   "devDependencies": {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import logo_standard from './logo_standard.png';
 import logo_highlight2 from './logo_highlight2.png';
+import logo_three from './logo_three.png';
 import './Header.css';
 
 
@@ -24,7 +25,7 @@ componentDidMount(){
           <nav>
               <a className="nav-brand above-overlay" href="#">
 
-                    <img src={logo_standard}  className="logo" alt="logo" />
+                    <img src={logo_three}  className="logo" alt="logo" />
 
               </a>
               <div className="menu-burger above-overlay">

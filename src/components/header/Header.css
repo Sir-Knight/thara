@@ -52,7 +52,7 @@ nav a > img {
 .menu-text{
   display: inline-block;
   float: left;
-  color: #F5F9E9;
+  color: #C2C1A5;
 	font: 100 30px 'Kanit', helvetica, san-serif;
 	letter-spacing: 1px;
 	text-transform: lowercase;
@@ -61,7 +61,7 @@ nav a > img {
 .bar:after,
 .bar:before {
 	height: 1px;
-	background: #F5F9E9;
+	background: #C2C1A5;
   display: inline-block;
 }
 

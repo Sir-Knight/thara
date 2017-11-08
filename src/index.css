@@ -5,6 +5,5 @@ body {
   background-color: #F5F9E9;
   overflow-x: hidden;
   position: fixed;
-  overflow-y: scroll;
   width: 100%;
 }
