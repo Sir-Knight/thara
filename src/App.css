@@ -28,29 +28,23 @@
 				#top { top: 0; }
 				#bottom { bottom: 0; }
 
-.header-app{
+.header_app{
   width: 100%;
- height: 100%;
+  background-color: transparent;
  position: absolute;
-  z-index: 10;
-
+ z-index: 10;
 }
 
-.carousel-app{
+.header_app .sticky{
+  width: 100%;
+  height: 190px;
+  background-color: white;
+ position: absolute;
+ z-index: 10;
+}
+
+.carousel_app{
    width: 100%;
    height: 100%;
    position: fixed;
-}
-
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #36453B;
-  height: 150px;
-  padding: 20px;
-  color: white;
 }

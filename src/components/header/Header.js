@@ -3,10 +3,13 @@ import $ from 'jquery';
 import logo_standard from './logo_standard.png';
 import logo_highlight2 from './logo_highlight2.png';
 import logo_three from './logo_three.png';
+import 'react-sticky-header/styles.css';
+import StickyHeader from 'react-sticky-header';
 import './Header.css';
 
 
 export default class Header extends Component {
+
 
 componentDidMount(){
   $(document).ready(function(){
@@ -17,12 +20,14 @@ componentDidMount(){
         $('.menu-options-list').delay(100).addClass('slideDownIn');	// Rapidly fades option in upward into place
       });
     });
+
+
 }
 
   render() {
     return (
         <div className="Frame-header">
-          <nav>
+          <nav className="navigation">
               <a className="nav-brand above-overlay" href="#">
 
                     <img src={logo_three}  className="logo" alt="logo" />
