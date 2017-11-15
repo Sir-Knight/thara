@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import $ from 'jquery';
 import Header from "./components/header/Header";
-import CarouselView from "./components/carouselview/CarouselView";
-import About from './components/about/About';
+import { RouteTransition } from 'react-router-transition';
 import './App.css';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
-class App extends Component {
+export default class App extends Component {
+  constructor(props) {
+  super(props);
+}
+  propTypes: {
+     route: React.PropTypes.object,
+     location: React.PropTypes.object
+   }
 
+   contextTypes :{
+     router: React.PropTypes.object
+   }
   render() {
     return (
       <div className="App">
@@ -19,11 +27,9 @@ class App extends Component {
         <Header />
         </div>
         <div className="carousel_app" >
-        <CarouselView />
+        {this.props.children}
         </div>
       </div>
     );
   }
 }
-
-export default App;

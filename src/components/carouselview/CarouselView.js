@@ -79,6 +79,8 @@ export default class CarouselView extends Component {
            leave: 'leave',
            leaveActive: isnext ? 'leave-active-next' : 'leave-active-prev'
          }}
+         transitionEnterTimeout={500}
+         transitionLeaveTimeout={300}
           >
             <div className="carousel_slide" key={index}>
               <img src={src}/>
