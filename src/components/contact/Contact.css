@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,100,600&subset=thai');
+
+.Contact{
+  height:100%;
+  background: #515751 ;
+}
+
+.padabove h1{
+  font-size: 50px;
+}
+
+#container {
+  margin:auto;
+  padding-top: 15%;
+  width:800px;
+  margin-bottom:50px;
+  overflow:auto;
+}
+
+#demo {
+  width:300px;
+  color: #F5F9E9;
+  font: 100 14px 'Kanit', helvetica, san-serif;
+  font-weight:300;
+  padding:10px;
+  text-align:left;
+  background:none;
+  overflow:auto;
+  float:left;
+  margin-left:40px;
+  color:#fff;
+}
+
+#demo p{
+  font: 100 16px 'Kanit', helvetica, san-serif;
+  text-align:left;
+    color: #F5F9E9;
+
+}
+
+#demo h1{
+  color: #F5F9E9;
+  font: 100 50px 'Kanit', helvetica, san-serif;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+#demo img{
+display:block;
+float:left;
+margin-right:10px;
+   border:0px solid #888;
+      	-moz-transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+	-ms-transition:all 0.1s ease-in-out;
+	transition:all 0.1s ease-in-out;
+}
+
+/* Below is the design for the contact form */
+
+#contact-wrap {
+    font: 100 16px 'Kanit', helvetica, san-serif;
+  width: 402px;
+    color: #F5F9E9;
+	overflow:auto;
+float:left;
+}
+
+#contact-area {
+  margin-left:3px;
+	width: 342px;
+
+  padding:20px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 342px;
+    font: 100 14px 'Kanit', helvetica, san-serif;
+  color: #F5F9E9;
+      background-color:transparent;
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid #F5F9E9;
+      border-right: 1px solid transparent;
+
+  margin-bottom:15px;
+}
+
+#contact-area textarea {
+	height: 150px;
+        background-color:transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #F5F9E9;
+  border-right: 1px solid transparent;
+
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	        background-color:#333;
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid #F5F9E9;
+      border-right: 1px solid transparent;
+
+}
+
+#contact-area input.submit-button {
+  font: 100 12px 'Kanit', helvetica, san-serif;
+  text-transform:uppercase;
+	width: 100px;
+	float: left;
+  background-color:transparent;
+  border-top: 1px solid #F5F9E9;
+  border-left: 1px solid #F5F9E9;
+  border-bottom: 1px solid #F5F9E9;
+  border-right: 1px solid #F5F9E9;
+
+    	-moz-transition:all 0.1s ease-in-out;
+	-webkit-transition:all 0.1s ease-in-out;
+	-o-transition:all 0.1s ease-in-out;
+	-ms-transition:all 0.1s ease-in-out;
+	transition:all 0.1s ease-in-out;
+}
+
+#contact-area input.submit-button:hover {
+
+  color:#C2C1A5;
+  background-color:#333;
+
+
+}
+
+label {
+	float: left;
+	text-align: left;
+	margin-right: 16px;
+	width: 100px;
+	padding-top: 5px;
+    font: 100 18px 'Kanit', helvetica, san-serif;
+}
+
+
+
+::-webkit-input-placeholder {
+  color: #fff;
+
+  font-size:14px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+
+  font-size:14px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #fff;
+
+  font-size:14px;
+}
+
+:-ms-input-placeholder {
+   color: #fff;
+
+  font-size:14px;
+}
