@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from "./components/header/Header";
-import { RouteTransition } from 'react-router-transition';
 import './App.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import { AnimatedSwitch } from 'react-router-transition';
 
 export default class App extends Component {
   constructor(props) {

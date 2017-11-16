@@ -132,7 +132,7 @@ nav a > img {
 	overflow: auto;
 	z-index: 10000; /* One less than menu-burger */
 	/* Background Image */
-	background: rgba(81, 87, 81, 0.90);
+	background: rgba(81, 87, 81, 0.97);
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;

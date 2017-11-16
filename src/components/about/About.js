@@ -9,7 +9,7 @@ export default class Header extends Component {
   render() {
     return (
         <div className="about-frame">
-         <div className="header-background">
+         <div className="header-background-about">
          </div>
          <div className="about-wrapper">
           <h1 className="about-title">เกี่ยวกับโครงการ</h1>
