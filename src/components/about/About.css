@@ -7,7 +7,11 @@
  width: 100%;
  overflow: auto;
 }
-
+.content-wrapper-about{
+  width: 80%;
+  padding-top: 5%;
+  margin: 0 auto;
+}
 .header-background-about{
     width: 100%;
     height: 190px;
@@ -16,9 +20,15 @@
    z-index: 10;
 }
 
-h1,p{
+.content-wrapper-about h1,p{
   color: #7a817a;
   font:'Kanit', helvetica, san-serif;
+}
+
+.content-wrapper-about h1 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  position: relative;
 }
 
 .about-wrapper{

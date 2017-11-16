@@ -16,7 +16,12 @@ export default class Info extends Component {
         <div className="header-background-info">
         </div>
 	<header>ข้อมูลโครงการ</header>
+
+<div className="bottom">
+  <div className="scroll-indicator"></div>
+</div>
  	<article>
+  <div className="content-wrapper-info">
 	<h1>Title</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu volutpat odio facilisis mauris sit. Cursus sit amet dictum sit amet justo donec. Sed ullamcorper morbi tincidunt ornare massa.
    Dolor sit amet consectetur adipiscing elit. Lacus sed turpis tincidunt id aliquet. Vivamus arcu felis bibendum ut tristique et egestas quis. Quis lectus nulla at volutpat diam ut venenatis tellus. Dolor sed viverra ipsum nunc aliquet bibendum enim.
@@ -94,7 +99,7 @@ export default class Info extends Component {
   <p>Metus aliquam eleifend mi in nulla posuere sollicitudin. Est velit egestas dui id ornare arcu. Nisl rhoncus mattis rhoncus urna neque viverra justo. Dui faucibus in ornare quam viverra orci. Fringilla urna porttitor rhoncus dolor purus non. Tempus quam
    pellentesque nec nam aliquam sem et tortor. Tempus imperdiet nulla malesuada pellentesque elit eget gravida. Ultrices vitae auctor eu augue ut lectus arcu. Mattis rhoncus urna neque viverra justo nec ultrices dui. Vitae congue mauris rhoncus aenean
    vel. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Rutrum tellus pellentesque eu tincidunt tortor.</p>
-
+</div>
  </article>
 </main>
 
