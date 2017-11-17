@@ -1,9 +1,20 @@
 import React, { Component } from 'react';
 import './About.css';
+import $ from 'jquery';
 
 export default class Header extends Component {
   constructor(props) {
   super(props);
+}
+
+componentDidMount(){
+$(document).ready(function(){
+  $('.bottom').click(function() {
+    $('html,body').animate({
+        scrollTop: $(".content-wrapper-about").offset().top},
+        'slow');
+});
+    });
 }
 
   render() {

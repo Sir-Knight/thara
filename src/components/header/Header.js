@@ -33,7 +33,7 @@ componentDidMount(){
     return (
         <div className="Frame-header">
           <nav className="navigation">
-              <a className="nav-brand above-overlay" href="#">
+              <a className="nav-brand above-overlay" href="/">
 
                     <img src={logo_three}  className="logo" alt="logo" />
 

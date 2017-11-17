@@ -1,21 +1,36 @@
 import React, { Component } from 'react';
 import './Info.css';
+import $ from 'jquery';
+ import jQuery from 'jquery';
 
-const nodes = Array.from(document.getElementsByTagName("h1"));
-const win = { w: window.innerWidth, h: window.innerHeight };
-const dimensions = [];
 
 export default class Info extends Component {
   constructor(props) {
   super(props);
 }
+
+componentDidMount() {
+
+    var head = $("header");
+    var stick = "sticky";
+    var bottom = $(".bottom");
+    var disappear = "sticky-bottom";
+
+    $(".info-frame").scroll(function() {
+        $(".info-frame").scrollTop() > 300
+            ? head.addClass(stick) + bottom.addClass(disappear)
+            : head.removeClass(stick) + bottom.removeClass(disappear)
+    })
+}
+
   render() {
+
     return (
         <div className="info-frame">
         <main>
-        <div className="header-background-info">
-        </div>
+        <div className="info-wrapper-background">
 	<header>ข้อมูลโครงการ</header>
+        </div>
 
 <div className="bottom">
   <div className="scroll-indicator"></div>
