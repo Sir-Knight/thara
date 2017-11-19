@@ -15,7 +15,6 @@ componentDidMount() {
     var stick = "sticky";
     var bottom = $(".bottom");
     var disappear = "sticky-bottom";
-    var title1 = $("title1");
 
     $(".info-frame").scroll(function() {
         $(".info-frame").scrollTop() > 300

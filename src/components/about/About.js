@@ -7,28 +7,39 @@ export default class Header extends Component {
   super(props);
 }
 
-componentDidMount(){
-$(document).ready(function(){
-  $('.bottom').click(function() {
-    $('html,body').animate({
-        scrollTop: $(".content-wrapper-about").offset().top},
-        'slow');
+componentDidMount() {
+
+    var head = $("header");
+    var stick = "sticky";
+    var bottom = $(".bottom");
+    var disappear = "sticky-bottom";
+
+    $(".about-frame").scroll(function() {
+        $(".about-frame").scrollTop() > 300
+            ? head.addClass(stick) + bottom.addClass(disappear)
+            : head.removeClass(stick) + bottom.removeClass(disappear)
+    })
+
+    $(".scroll-indicator").click(function() {
+    $(".about-frame").animate({
+        scrollTop: $(".title1").offset().top
+    }, 1500);
 });
-    });
 }
 
   render() {
     return (
         <div className="about-frame">
          <main>
-         <div className="header-background-about">
+         <div className="about-wrapper-background">
+ <header>เกี่ยวกับโครงการ</header>
          </div>
-  <header>เกี่ยวกับโครงการ</header>
 
  <div className="bottom">
    <div className="scroll-indicator"></div>
  </div>
  <div className="content-wrapper-about">
+  <section className="title1">
   <h1>Title</h1>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu volutpat odio facilisis mauris sit. Cursus sit amet dictum sit amet justo donec. Sed ullamcorper morbi tincidunt ornare massa.
     Dolor sit amet consectetur adipiscing elit. Lacus sed turpis tincidunt id aliquet. Vivamus arcu felis bibendum ut tristique et egestas quis. Quis lectus nulla at volutpat diam ut venenatis tellus. Dolor sed viverra ipsum nunc aliquet bibendum enim.
@@ -70,6 +81,7 @@ $(document).ready(function(){
     Nulla facilisi etiam dignissim diam quis. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Odio pellentesque diam volutpat commodo sed egestas egestas. Sit amet
     risus nullam eget felis eget nunc. Nulla pellentesque dignissim enim sit amet. Enim eu turpis egestas pretium. Sit amet cursus sit amet dictum sit amet justo. Arcu vitae elementum curabitur vitae nunc sed velit dignissim. Neque laoreet suspendisse
     interdum consectetur libero id faucibus nisl tincidunt. Metus dictum at tempor commodo ullamcorper.</p>
+   </section>
    <h1>Title</h1>
    <p>Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Amet porttitor eget dolor morbi non arcu risus. Magna fermentum iaculis eu non diam phasellus. Senectus et netus et malesuada fames ac. Magna fermentum iaculis eu non diam. Id
     semper risus in hendrerit gravida rutrum quisque. Eget mauris pharetra et ultrices neque. Urna condimentum mattis pellentesque id. Aenean sed adipiscing diam donec adipiscing. Amet consectetur adipiscing elit duis. Eu lobortis elementum nibh tellus
