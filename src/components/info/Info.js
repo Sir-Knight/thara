@@ -15,12 +15,19 @@ componentDidMount() {
     var stick = "sticky";
     var bottom = $(".bottom");
     var disappear = "sticky-bottom";
+    var title1 = $("title1");
 
     $(".info-frame").scroll(function() {
         $(".info-frame").scrollTop() > 300
             ? head.addClass(stick) + bottom.addClass(disappear)
             : head.removeClass(stick) + bottom.removeClass(disappear)
     })
+
+    $(".scroll-indicator").click(function() {
+    $(".info-frame").animate({
+        scrollTop: $(".title1").offset().top
+    }, 1500);
+});
 }
 
   render() {
@@ -35,8 +42,9 @@ componentDidMount() {
 <div className="bottom">
   <div className="scroll-indicator"></div>
 </div>
- 	<article>
+ 	<article ref="article">
   <div className="content-wrapper-info">
+  <section className="title1">
 	<h1>Title</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu volutpat odio facilisis mauris sit. Cursus sit amet dictum sit amet justo donec. Sed ullamcorper morbi tincidunt ornare massa.
    Dolor sit amet consectetur adipiscing elit. Lacus sed turpis tincidunt id aliquet. Vivamus arcu felis bibendum ut tristique et egestas quis. Quis lectus nulla at volutpat diam ut venenatis tellus. Dolor sed viverra ipsum nunc aliquet bibendum enim.
@@ -63,6 +71,7 @@ componentDidMount() {
    Viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Amet facilisis magna etiam tempor orci eu lobortis.
    In fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Elit duis tristique sollicitudin nibh sit amet commodo nulla. Malesuada pellentesque elit eget gravida cum sociis. Faucibus purus in massa tempor nec. Quam viverra orci sagittis
    eu.</p>
+   </section>
 	 <h1>Title</h1>
   <p>Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Lacus vestibulum sed arcu non odio euismod lacinia. Eget gravida cum sociis natoque. Dolor sed viverra ipsum nunc aliquet bibendum enim. Quam pellentesque nec nam aliquam. Ac turpis egestas
    maecenas pharetra convallis posuere morbi leo. Facilisi nullam vehicula ipsum a arcu cursus vitae. Urna neque viverra justo nec ultrices dui. Imperdiet proin fermentum leo vel orci. At lectus urna duis convallis convallis tellus id interdum velit.
