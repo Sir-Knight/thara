@@ -48,7 +48,7 @@ componentDidMount(){
               <ul className="menu-options-list">
                 <li className="menu-option option-1"><Link className="link link--surinami" to='/'><span data-letters-l="หน้า" data-letters-r="หลัก">หน้าหลัก</span></Link></li>
                 <li className="menu-option option-2"><Link className="link link--surinami" to='/about'><span data-letters-l="เกี่ยวกับ" data-letters-r="โครงการ">เกี่ยวกับโครงการ</span></Link></li>
-                <li className="menu-option option-3"><Link className="link link--surinami" to='/info'><span data-letters-l="ข้อ" data-letters-r="มูล">ข้อมูล</span></Link></li>
+                <li className="menu-option option-3"><Link className="link link--surinami" to='/info'><span data-letters-l="ความ" data-letters-r="คืบหน้า">ความคืบหน้า</span></Link></li>
                 <li className="menu-option option-5"><Link className="link link--surinami" to='/contact'><span data-letters-l="ติด" data-letters-r="ต่อ">ติดต่อ</span></Link></li>
               </ul>
           </div>

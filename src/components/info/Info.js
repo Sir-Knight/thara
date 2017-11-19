@@ -24,7 +24,7 @@ componentDidMount() {
 
     $(".scroll-indicator").click(function() {
     $(".info-frame").animate({
-        scrollTop: $(".title1").offset().top
+        scrollTop: $(".title1").offset().top-200
     }, 1500);
 });
 }
@@ -35,7 +35,7 @@ componentDidMount() {
         <div className="info-frame">
         <main>
         <div className="info-wrapper-background">
-	<header>ข้อมูลโครงการ</header>
+	<header>ความคืบหน้าโครงการ</header>
         </div>
 
 <div className="bottom">

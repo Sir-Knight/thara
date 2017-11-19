@@ -22,7 +22,7 @@ componentDidMount() {
 
     $(".scroll-indicator").click(function() {
     $(".about-frame").animate({
-        scrollTop: $(".title1").offset().top
+        scrollTop: $(".title1").offset().top-200
     }, 1500);
 });
 }
