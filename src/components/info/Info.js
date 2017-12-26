@@ -37,7 +37,6 @@ componentDidMount() {
         <div className="info-wrapper-background">
 	<header>ความคืบหน้าโครงการ</header>
         </div>
-
 <div className="bottom">
   <div className="scroll-indicator"></div>
 </div>

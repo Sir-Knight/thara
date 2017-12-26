@@ -34,12 +34,6 @@
   font:'Kanit', helvetica, san-serif;
 }
 
-.content-wrapper-about h1 {
-  font-family: "Montserrat";
-  text-transform: uppercase;
-  position: relative;
-}
-
 .about-wrapper{
   text-align: left;
   position: relative;
@@ -57,6 +51,34 @@
   transition: all 0.3s;
 }
 
-.title1{
+.about-project{
   height: auto;
+  text-align: left;
+  position: relative;
+  color: #7a817a;
+    font: 100 27px 'Kanit', helvetica, san-serif;
+}
+.about-objective{
+  height: auto;
+  text-align: left;
+  position: relative;
+  color: #7a817a;
+    font: 100 27px 'Kanit', helvetica, san-serif;
+}
+
+.about-area{
+  height: auto;
+  text-align: left;
+  position: relative;
+  color: #7a817a;
+    font: 100 27px 'Kanit', helvetica, san-serif;
+}
+
+.about-scope{
+  padding-bottom: 3%;
+  height: auto;
+  text-align: left;
+  position: relative;
+  color: #7a817a;
+    font: 100 27px 'Kanit', helvetica, san-serif;
 }
