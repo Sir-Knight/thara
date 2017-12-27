@@ -82,3 +82,56 @@
   color: #7a817a;
     font: 100 27px 'Kanit', helvetica, san-serif;
 }
+
+.scroll-indicator {
+  width: 24px;
+  height: 24px;
+  margin: 16px auto;
+  cursor: pointer;
+  border-right: 2px solid #7a817a;
+  border-bottom: 2px solid #7a817a;
+  border-bottom-right-radius: 2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .area{
+        width: 625px;
+      }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      .area{
+        width: 300px;
+      }
+      .about-project,
+      .about-objective,
+      .about-area,
+      .about-scope{
+          font: 100 20px 'Kanit', helvetica, san-serif;
+      }
+
+
+    }

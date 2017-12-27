@@ -44,9 +44,9 @@ nav a > img {
 	width: auto;
 }
 
-@media (min-width: 789px) {
+/* @media (min-width: 789px) {
 	.menu-burger { display: none; }
-}
+} */
 
 .menu-burger {
 	 width: 90px;
@@ -275,3 +275,94 @@ nav a > img {
   -o-animation:      slideDownIn 1s; /* Opera 12+ */
   animation:         slideDownIn 1s; /* IE 10+, Fx 29+ */
 }
+
+@media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .logo{
+        padding-top: 10%;
+        padding-left: 3%;
+
+      }
+      .overlay{
+        margin-left: -13%;
+      }
+      .overlay .menu-options-list {
+        margin-top: 30%;
+      }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      .logo{
+        padding-top: 10%;
+        padding-left: 3%;
+        width:180px;
+      }
+      .menu-text{
+        margin-top: -5%;
+      	font: 100 25px 'Kanit', helvetica, san-serif;
+      }
+      .menu-burger{
+        padding-left: 13%;
+      }
+      .bar:before { width: 30px; }
+      .bar  		{ width: 25px; }
+      .bar:after 	{ width: 20px; }
+      .bar,
+      .bar:after,
+      .bar:before {
+        -ms-transform: scale(0.75, 0.75); /* IE 9 */
+        -webkit-transform: scale(0.75, 0.75); /* Safari */
+        transform: scale(0.75, 0.75);
+      }
+      .bar.animate {
+      	width: 10px;
+      }
+      .link--surinami {
+        font: 100 30px 'Kanit', helvetica, san-serif;
+      }
+      .overlay{
+        margin-left: -17%;
+      }
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+      .logo{
+        padding-top: 10%;
+        padding-left: 3%;
+        width:180px;
+      }
+      .menu-text{
+      	font: 100 20px 'Kanit', helvetica, san-serif;
+      }
+      .bar,
+      .bar:after,
+      .bar:before {
+        -ms-transform: scale(0.75, 0.75); /* IE 9 */
+        -webkit-transform: scale(0.75, 0.75); /* Safari */
+        transform: scale(0.75, 0.75);
+      }
+      .bar.animate {
+      	width: 10px;
+      }
+      .overlay .menu-options-list {
+        -ms-transform: scale(0.75, 0.75); /* IE 9 */
+        -webkit-transform: scale(0.75, 0.75); /* Safari */
+        transform: scale(0.75, 0.75);
+      }
+      .overlay{
+        margin-left: -15%;
+      }
+
+    }

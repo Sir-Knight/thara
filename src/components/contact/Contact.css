@@ -3,6 +3,7 @@
 .Contact{
   height:100%;
   background: #515751 ;
+    overflow:auto;
 }
 
 .padabove h1{
@@ -198,12 +199,79 @@ label {
       float:left;
 
 }
-.thara p{
-  margin-top: 10%;
-}
+
 
 .tesco{
     width:200px;
       float:left;
 
 }
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      #demo{
+
+        margin-top: 15%;
+
+      }
+      #contact-area {
+        margin-top: 20%;
+        -ms-transform: scale(0.95, 0.95); /* IE 9 */
+        -webkit-transform: scale(0.95, 0.95); /* Safari */
+        transform: scale(0.95, 0.95);
+      }
+      #contact-wrap {
+          font: 100 16px 'Kanit', helvetica, san-serif;
+        width: 302px;
+        margin-left: 3%;
+          color: #F5F9E9;
+      float:left;
+      }
+      .company{
+       padding-top: 50px;
+       padding-left: 60px;
+      }
+      .thara{
+        margin-top: -5%;
+      }
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+     #demo{
+       margin-left: 7%;
+
+     }
+     #contact-area {
+       -ms-transform: scale(0.85, 0.85); /* IE 9 */
+       -webkit-transform: scale(0.85, 0.85); /* Safari */
+       transform: scale(0.85, 0.85);
+     }
+     #contact-wrap {
+         font: 100 16px 'Kanit', helvetica, san-serif;
+       width: 302px;
+       margin-left: 3%;
+         color: #F5F9E9;
+     float:left;
+     }
+     .company{
+       margin-left: 8%;
+     }
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
