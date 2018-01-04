@@ -113,9 +113,6 @@ export default class CarouselView extends Component {
 }
 
 class History extends React.Component {
- constructor(props) {
-   super(props);
- }
 
  render() {
    let current = this.props.current;

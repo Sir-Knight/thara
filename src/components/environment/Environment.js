@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import './Environment.css';
-import $ , { jQuery } from 'jquery';
+import $  from 'jquery';
 
 export default class Environment extends Component {
-  constructor(props) {
-  super(props);
-}
+
 
 componentDidMount() {
 

@@ -3,17 +3,7 @@ import Header from "./components/header/Header";
 import './App.css';
 
 export default class App extends Component {
-  constructor(props) {
-  super(props);
-}
-  propTypes: {
-     route: React.PropTypes.object,
-     location: React.PropTypes.object
-   }
-
-   contextTypes :{
-     router: React.PropTypes.object
-   }
+  
   render() {
     return (
       <div className="App">

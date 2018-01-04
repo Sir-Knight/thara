@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import './Engineering.css';
-import $ , { jQuery } from 'jquery';
+import $ from 'jquery';
 
 export default class Engineering extends Component {
-  constructor(props) {
-  super(props);
-}
 
 componentDidMount() {
 

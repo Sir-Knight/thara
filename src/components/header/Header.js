@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import logo_orange from './logo_orange.png';
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Header.css';
 
 
 export default class Header extends Component {
-  constructor(props) {
-  super(props);
-}
 
 
 componentDidMount(){

@@ -5,9 +5,7 @@ import tescoicon from './tesco_logo.png';
 import officeicon from './office_logo.png';
 
 export default class Contact extends Component {
-  constructor(props) {
-  super(props);
-}
+
   render() {
     return (
         <div className="Contact">

@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import './Download.css';
-import $ , { jQuery } from 'jquery';
+import $ from 'jquery';
 
 export default class Download extends Component {
-  constructor(props) {
-  super(props);
-}
+
 
 componentDidMount() {
 

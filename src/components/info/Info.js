@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import './Info.css';
-import $ , { jQuery } from 'jquery';
+import $ from 'jquery';
 
 export default class Info extends Component {
-  constructor(props) {
-  super(props);
-}
 
 componentDidMount() {
 

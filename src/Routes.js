@@ -1,12 +1,11 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 import App from './App';
 import './Routes.css';
 import CarouselView from './components/carouselview/CarouselView';
 import About from './components/about/About';
 import Info from './components/info/Info';
-import Test from './components/test/Test';
 import Contact from './components/contact/Contact';
 import Engineering from './components/engineering/Engineering';
 import Environment from './components/environment/Environment';

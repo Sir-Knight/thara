@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import './Local.css';
-import $ , { jQuery } from 'jquery';
+import $ from 'jquery';
 
 export default class Local extends Component {
-  constructor(props) {
-  super(props);
-}
 
 componentDidMount() {
 

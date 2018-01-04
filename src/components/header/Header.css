@@ -131,7 +131,7 @@ nav a > img {
 	overflow: auto;
 	z-index: 10000; /* One less than menu-burger */
 	/* Background Image */
-	background: rgba(107, 109, 118, 0.99);
+	background: rgba(217, 220, 203, 0.99);
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -150,8 +150,8 @@ nav a > img {
 
 .overlay .menu-option {
   width: 75%;
-  margin-left: 3%;
- padding: 2rem;
+ margin-left: 3%;
+ padding: 0.8rem;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -166,8 +166,8 @@ nav a > img {
 }
 
 .link--surinami {
-  font: 100 40px 'Kanit', helvetica, san-serif;
-  color:  #f68f1c;
+  font: 100 35px 'Kanit', helvetica, san-serif;
+  color:  #515751;
   letter-spacing: 2px;
   padding: 0 0 0.125em;
 }
@@ -213,7 +213,7 @@ nav a > img {
 }
 .link--surinami span::before, .link--surinami span::after {
   position: absolute;
-  color:  #F5F9E9;
+  color:  white;
   opacity: 0;
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s;
@@ -315,7 +315,7 @@ nav a > img {
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 1024px) {
       .overlay .menu-option{
-        margin-left: 12%;
+        margin-left: 15%;
       }
       .overlay .menu-options-list {
         margin-top: 17%;
@@ -338,7 +338,7 @@ nav a > img {
         margin-top: 15%;
       }
       .overlay .menu-option{
-        margin-left: 12%;
+        margin-left: 15%;
       }
 
 
@@ -378,15 +378,15 @@ nav a > img {
       	width: 10px;
       }
       .link--surinami {
-        font: 100 30px 'Kanit', helvetica, san-serif;
+        font: 100 25px 'Kanit', helvetica, san-serif;
       }
       .overlay{
         margin-left: -17%;
       }
 
       .overlay .menu-option{
-        margin-left: 9%;
-        margin-top: -3%;
+        margin-left: 15%;
+        margin-top: 2%;
       }
 
     }
@@ -424,8 +424,8 @@ nav a > img {
 
       }
       .overlay .menu-option{
-        margin-left: 9%;
-        margin-top: -3%;
+        margin-left: 14%;
+        margin-top: 2%;
       }
 
 
