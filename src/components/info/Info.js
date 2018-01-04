@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Info.css';
-import $ from 'jquery';
- import jQuery from 'jquery';
-
+import $ , { jQuery } from 'jquery';
 
 export default class Info extends Component {
   constructor(props) {

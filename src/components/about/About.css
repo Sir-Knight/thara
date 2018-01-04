@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Kanit:400,100,600&subset=thai');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100&subset=thai');
+@import url('https://fonts.googleapis.com/css?family=Trirong:300,200');
 
 .about-frame{
-  background-color: white;
+background-color: #f8f7ee;
  position: relative;
  height: 99%;
  width: 100%;
@@ -26,7 +27,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: white;
+  background-color: #f8f7ee;
 }
 
 .content-wrapper-about h1,p{
@@ -56,14 +57,14 @@
   text-align: left;
   position: relative;
   color: #7a817a;
-    font: 100 27px 'Kanit', helvetica, san-serif;
+    font: 200 27px 'Trirong', serif;
 }
 .about-objective{
   height: auto;
   text-align: left;
   position: relative;
   color: #7a817a;
-    font: 100 27px 'Kanit', helvetica, san-serif;
+  font: 200 27px 'Trirong', serif;
 }
 
 .about-area{
@@ -71,7 +72,7 @@
   text-align: left;
   position: relative;
   color: #7a817a;
-    font: 100 27px 'Kanit', helvetica, san-serif;
+    font: 200 27px 'Trirong', serif;
 }
 
 .about-scope{
@@ -80,7 +81,7 @@
   text-align: left;
   position: relative;
   color: #7a817a;
-    font: 100 27px 'Kanit', helvetica, san-serif;
+    font: 200 27px 'Trirong', serif;
 }
 
 .scroll-indicator {
@@ -130,7 +131,7 @@
       .about-objective,
       .about-area,
       .about-scope{
-          font: 100 20px 'Kanit', helvetica, san-serif;
+        font: 200 20px 'Trirong', serif;
       }
 
 

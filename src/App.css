@@ -10,7 +10,7 @@
 }
 
 #top, #bottom, #left, #right {
-			background: #F5F9E9;
+			background: #f68f1c;
       z-index: 9999;
 			}
 			#left, #right {
@@ -59,7 +59,7 @@
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
       #top, #bottom, #left, #right {
-            background: #F5F9E9;
+            background: #f68f1c;
             z-index: 9999;
             }
             #left, #right {
@@ -83,7 +83,7 @@
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
       #top, #bottom, #left, #right {
-      			background: #F5F9E9;
+      			background: #f68f1c;
             z-index: 9999;
       			}
       			#left, #right {

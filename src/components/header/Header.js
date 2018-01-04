@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import logo_three from './logo_three.png';
-import logo_highlight2 from './logo_highlight2.png';
+import logo_orange from './logo_orange.png';
 import { Route, Link } from "react-router-dom";
-
 import './Header.css';
 
 
@@ -36,7 +34,7 @@ componentDidMount(){
           <nav className="navigation">
               <a className="nav-brand above-overlay" href="/">
 
-                    <img src={logo_highlight2}  className="logo" alt="logo" />
+                    <img src={logo_orange}  className="logo" alt="logo" />
 
               </a>
               <div className="menu-burger above-overlay">

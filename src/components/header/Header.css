@@ -1,6 +1,6 @@
 /* CHECK THIS SITE FOR IE7+ SUPPORT VERSION: https://css-tricks.com/perfect-full-page-background-image/  */
 
-@import url('https://fonts.googleapis.com/css?family=Kanit:400,100,600&subset=thai');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100&subset=thai');
 
 .Frame-header{
   width:100%;
@@ -34,8 +34,8 @@ nav {
 nav a.nav-brand {}
 
 .logo{
-  padding-top: 10%;
-  width:400px;
+  padding-top: 8%;
+  width:520px;
   height: auto;
 }
 
@@ -49,20 +49,20 @@ nav a > img {
 } */
 
 .menu-burger {
-	 width: 90px;
+	  width: 90px;
     height: 22px;
     cursor: pointer;
     display: inline-block;
     align-items: center;
     right: 50px;
-    margin: 0 30px 0 0;
+    margin: 35px 30px 0 0;
     padding: 10px;
     padding-bottom: 5%;
 }
 .menu-text{
   display: inline-block;
   float: left;
-  color: #C2C1A5;
+  color: #f68f1c;
 	font: 100 30px 'Kanit', helvetica, san-serif;
 	letter-spacing: 1px;
 	text-transform: lowercase;
@@ -71,7 +71,7 @@ nav a > img {
 .bar:after,
 .bar:before {
 	height: 1px;
-	background: #C2C1A5;
+	background: #f68f1c;
   display: inline-block;
 }
 
@@ -132,7 +132,7 @@ nav a > img {
 	overflow: auto;
 	z-index: 10000; /* One less than menu-burger */
 	/* Background Image */
-	background: rgba(81, 87, 81, 0.97);
+	background: rgba(107, 109, 118, 0.99);
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -168,7 +168,7 @@ nav a > img {
 
 .link--surinami {
   font: 100 50px 'Kanit', helvetica, san-serif;
-  color:  #C2C1A5;
+  color:  #f68f1c;
   letter-spacing: 2px;
   padding: 0 0 0.125em;
 }
@@ -277,7 +277,40 @@ nav a > img {
 }
 
 @media only screen and (max-width : 1200px) {
+  .logo{
+    padding-top: 10%;
+    padding-left: 3%;
+    width: 600px;
 
+  }
+  .overlay{
+    margin-left: -13%;
+  }
+  .overlay .menu-options-list {
+    margin-top: 30%;
+  }
+
+  .menu-text{
+    display: inline-block;
+    margin-bottom: 50px;
+    font: 100 40px 'Kanit', helvetica, san-serif;
+  }
+  .menu-burger {
+  	  width: 130px;
+      display: inline-block;
+  }
+
+  .bar{
+    margin-top: 30px;
+  }
+
+  .bar,
+  .bar:after,
+  .bar:before {
+    -ms-transform: scale(1.05, 1.05); /* IE 9 */
+    -webkit-transform: scale(1.05, 1.05); /* Safari */
+    transform: scale(1.05, 1.05);
+  }
     }
 
     /* Medium Devices, Desktops */
@@ -290,6 +323,7 @@ nav a > img {
       .logo{
         padding-top: 10%;
         padding-left: 3%;
+        width: 450px;
 
       }
       .overlay{
@@ -298,28 +332,35 @@ nav a > img {
       .overlay .menu-options-list {
         margin-top: 30%;
       }
+
     }
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
       .logo{
-        padding-top: 10%;
-        padding-left: 3%;
-        width:180px;
+        padding-top: 1%;
+        padding-left: 1%;
+        width:250px;
       }
       .menu-text{
-        margin-top: -5%;
-      	font: 100 25px 'Kanit', helvetica, san-serif;
+        margin-left: -5px;
+        float: left;
+      	font: 100 18px 'Kanit', helvetica, san-serif;
       }
       .menu-burger{
-        padding-left: 13%;
+        width: 150px;
+      margin-top: 15px;
+      margin-bottom: 30px;
       }
-      .bar:before { width: 30px; }
-      .bar  		{ width: 25px; }
-      .bar:after 	{ width: 20px; }
+      .bar{
+        margin-top: 15px;
+      }
+
       .bar,
       .bar:after,
       .bar:before {
+
+        float: left;
         -ms-transform: scale(0.75, 0.75); /* IE 9 */
         -webkit-transform: scale(0.75, 0.75); /* Safari */
         transform: scale(0.75, 0.75);
@@ -337,11 +378,11 @@ nav a > img {
     }
 
     /* Custom, iPhone Retina */
-    @media only screen and (max-width : 320px) {
+    @media only screen and (max-width : 360px) {
       .logo{
-        padding-top: 10%;
+        padding-top: 1%;
         padding-left: 3%;
-        width:180px;
+        width:220px;
       }
       .menu-text{
       	font: 100 20px 'Kanit', helvetica, san-serif;

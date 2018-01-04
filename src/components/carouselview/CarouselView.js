@@ -1,9 +1,15 @@
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import React, { Component } from 'react';
 import './CarouselView.css';
-import picture1 from './picture1.jpeg';
-import picture2 from './picture2.jpeg';
-import picture3 from './picture3.jpeg';
+import picturemain from './picturemain.jpg';
+import picture1 from './picture1.jpg';
+import picture2 from './picture2.jpg';
+import picture3 from './picture3.jpg';
+import picture4 from './picture4.jpg';
+import picture5 from './picture5.jpg';
+import picture6 from './picture6.jpg';
+import picture7 from './picture7.jpg';
+
 
 
 export default class CarouselView extends Component {
@@ -11,9 +17,14 @@ export default class CarouselView extends Component {
    super(props);
    this.state = {
      items: [
+       picturemain,
        picture1,
        picture2,
-       picture3
+       picture3,
+       picture4,
+       picture5,
+       picture6,
+       picture7
      ],
      current: 0,
      isNext: true
