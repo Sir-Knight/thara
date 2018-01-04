@@ -320,7 +320,7 @@ nav a > img {
 
     @media only screen and (max-width : 1620px) {
       .link--surinami {
-        font: 100 35px 'Kanit', helvetica, san-serif;
+        font: 100 30px 'Kanit', helvetica, san-serif;
       }
 
     }
@@ -392,7 +392,7 @@ nav a > img {
       	width: 10px;
       }
       .link--surinami {
-        font: 100 25px 'Kanit', helvetica, san-serif;
+        font: 100 15px 'Kanit', helvetica, san-serif;
       }
       .overlay{
         margin-left: -17%;
@@ -431,7 +431,7 @@ nav a > img {
       	width: 10px;
       }
       .link--surinami {
-        font: 100 20px 'Kanit', helvetica, san-serif;
+        font: 100 15px 'Kanit', helvetica, san-serif;
       }
       .overlay{
         margin-left: -15%;
