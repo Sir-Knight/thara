@@ -67,7 +67,6 @@ main {
 
 .sticky{
   top:25px;
-  padding-left: 300px;
   position: fixed;
   font-size:30px;
   -webkit-transition: all 0.3s;
@@ -186,12 +185,30 @@ a.effect1:hover:after {
 }
 
 /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
+      @media only screen and (max-width : 1600px) {
+        .sticky{
+          top:25px;
+          padding-left: 350px;
+          position: fixed;
+          font-size:15px;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+        	background: rgba(107, 109, 118, 0.95);
+          color: #F68F1C;
+        }
 
+      }
+    @media only screen and (max-width : 1200px) {
+      .sticky{
+        padding-top: 60px;
+        padding-left: 0;
+        font-size: 50px;
+      }
     }
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
+    @media only screen and (max-width : 1024px) {
 
     }
 

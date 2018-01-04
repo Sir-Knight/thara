@@ -33,7 +33,7 @@ componentDidMount() {
         <div className="info-frame">
         <main>
         <div className="info-wrapper-background">
-	<header>ความคืบหน้าโครงการ</header>
+	<header>ความก้าวหน้าของโครงการ</header>
         </div>
 <div className="bottom">
   <div className="scroll-indicator"></div>

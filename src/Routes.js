@@ -8,6 +8,11 @@ import About from './components/about/About';
 import Info from './components/info/Info';
 import Test from './components/test/Test';
 import Contact from './components/contact/Contact';
+import Engineering from './components/engineering/Engineering';
+import Environment from './components/environment/Environment';
+import Local from './components/local/Local';
+import Download from './components/download/Download';
+
 
 
 
@@ -27,6 +32,10 @@ const Routes = (props) => {
             <Switch>
                       <Route exact path="/" component={CarouselView} />
                       <Route path="/about" component={About} />
+                      <Route path="/engineering" component={Engineering} />
+                      <Route path="/environment" component={Environment} />
+                      <Route path="/local" component={Local} />
+                      <Route path="/download" component={Download} />
                       <Route path="/info" component={Info} />
                       <Route path="/contact" component={Contact} />
                       </Switch>

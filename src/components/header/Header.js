@@ -47,8 +47,12 @@ componentDidMount(){
               <ul className="menu-options-list">
                 <li className="menu-option option-1"><Link className="link link--surinami" to='/'><span data-letters-l="หน้า" data-letters-r="หลัก">หน้าหลัก</span></Link></li>
                 <li className="menu-option option-2"><Link className="link link--surinami" to='/about'><span data-letters-l="เกี่ยวกับ" data-letters-r="โครงการ">เกี่ยวกับโครงการ</span></Link></li>
-                <li className="menu-option option-3"><Link className="link link--surinami" to='/info'><span data-letters-l="ความ" data-letters-r="คืบหน้า">ความคืบหน้า</span></Link></li>
-                <li className="menu-option option-5"><Link className="link link--surinami" to='/contact'><span data-letters-l="ติด" data-letters-r="ต่อ">ติดต่อ</span></Link></li>
+                <li className="menu-option option-3"><Link className="link link--surinami" to='/engineering'><span data-letters-l="งานด้าน" data-letters-r="วิศวกรรม">งานด้านวิศวกรรม</span></Link></li>
+                <li className="menu-option option-4"><Link className="link link--surinami" to='/environment'><span data-letters-l="งานด้าน" data-letters-r="สิ่งแวดล้อม">งานด้านสิ่งแวดล้อม</span></Link></li>
+                <li className="menu-option option-5"><Link className="link link--surinami" to='/local'><span data-letters-l="งานการมีส่วนร่วม" data-letters-r="ของประชาชน">งานการมีส่วนร่วมของประชาชน</span></Link></li>
+                <li className="menu-option option-6"><Link className="link link--surinami" to='/download'><span data-letters-l="เอกสาร" data-letters-r="ประชาสัมพันธ์">เอกสารประชาสัมพันธ์</span></Link></li>
+                <li className="menu-option option-7"><Link className="link link--surinami" to='/info'><span data-letters-l="ความก้าวหน้า" data-letters-r="ของโครงการ">ความก้าวหน้าของโครงการ</span></Link></li>
+                <li className="menu-option option-8"><Link className="link link--surinami" to='/contact'><span data-letters-l="ติด" data-letters-r="ต่อ">ติดต่อ</span></Link></li>
               </ul>
           </div>
         </div>

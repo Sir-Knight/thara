@@ -127,7 +127,6 @@ nav a > img {
 	position: fixed;
 	height: 100vh;
 	width: 120vw;
-  margin-left: -10%;
 	top: 0;
 	overflow: auto;
 	z-index: 10000; /* One less than menu-burger */
@@ -142,7 +141,6 @@ nav a > img {
 .overlay a { text-decoration: none; }
 
 .overlay .menu-options-list {
-
 	display: flex;
 	flex-flow: column nowrap;
 	text-align: center;
@@ -151,7 +149,8 @@ nav a > img {
 }
 
 .overlay .menu-option {
-  width: 100%;
+  width: 75%;
+  margin-left: 3%;
  padding: 2rem;
  display: flex;
  justify-content: center;
@@ -167,7 +166,7 @@ nav a > img {
 }
 
 .link--surinami {
-  font: 100 50px 'Kanit', helvetica, san-serif;
+  font: 100 40px 'Kanit', helvetica, san-serif;
   color:  #f68f1c;
   letter-spacing: 2px;
   padding: 0 0 0.125em;
@@ -314,7 +313,13 @@ nav a > img {
     }
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
+    @media only screen and (max-width : 1024px) {
+      .overlay .menu-option{
+        margin-left: 12%;
+      }
+      .overlay .menu-options-list {
+        margin-top: 17%;
+      }
 
     }
 
@@ -330,8 +335,12 @@ nav a > img {
         margin-left: -13%;
       }
       .overlay .menu-options-list {
-        margin-top: 30%;
+        margin-top: 15%;
       }
+      .overlay .menu-option{
+        margin-left: 12%;
+      }
+
 
     }
 
@@ -343,7 +352,7 @@ nav a > img {
         width:250px;
       }
       .menu-text{
-        margin-left: -5px;
+        margin-left: -15px;
         float: left;
       	font: 100 18px 'Kanit', helvetica, san-serif;
       }
@@ -375,17 +384,27 @@ nav a > img {
         margin-left: -17%;
       }
 
+      .overlay .menu-option{
+        margin-left: 9%;
+        margin-top: -3%;
+      }
+
     }
 
     /* Custom, iPhone Retina */
-    @media only screen and (max-width : 360px) {
+    @media only screen and (max-width : 365px) {
       .logo{
-        padding-top: 1%;
+        padding-top: 8%;
         padding-left: 3%;
         width:220px;
       }
       .menu-text{
       	font: 100 20px 'Kanit', helvetica, san-serif;
+      }
+      .menu-burger{
+        padding-top: 15px;
+        margin: 0;
+        padding-left: 50px;
       }
       .bar,
       .bar:after,
@@ -397,13 +416,17 @@ nav a > img {
       .bar.animate {
       	width: 10px;
       }
-      .overlay .menu-options-list {
-        -ms-transform: scale(0.75, 0.75); /* IE 9 */
-        -webkit-transform: scale(0.75, 0.75); /* Safari */
-        transform: scale(0.75, 0.75);
+      .link--surinami {
+        font: 100 20px 'Kanit', helvetica, san-serif;
       }
       .overlay{
         margin-left: -15%;
+
       }
+      .overlay .menu-option{
+        margin-left: 9%;
+        margin-top: -3%;
+      }
+
 
     }

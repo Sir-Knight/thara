@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #36453B;
+  background-color: white;
   float: none;
   margin: 0 auto;
   width: 100%;
@@ -10,7 +10,7 @@
 }
 
 #top, #bottom, #left, #right {
-			background: #f68f1c;
+			background: white;
       z-index: 9999;
 			}
 			#left, #right {
@@ -59,7 +59,7 @@
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
       #top, #bottom, #left, #right {
-            background: #f68f1c;
+            background: white;
             z-index: 9999;
             }
             #left, #right {
@@ -83,7 +83,7 @@
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
       #top, #bottom, #left, #right {
-      			background: #f68f1c;
+      			background: white;
             z-index: 9999;
       			}
       			#left, #right {

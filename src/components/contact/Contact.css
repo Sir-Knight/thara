@@ -2,7 +2,7 @@
 
 .Contact{
   height:100%;
-  background: #FFFCE8 ;
+  background-color: #f8f7ee;
     overflow:auto;
 }
 
@@ -191,7 +191,7 @@ label {
 
 .company p{
   color: #6B6D76;
-   margin:0 
+   margin:0
 }
 
 .company img{
