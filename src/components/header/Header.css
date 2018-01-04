@@ -311,6 +311,20 @@ nav a > img {
     transform: scale(1.05, 1.05);
   }
     }
+    @media only screen and (max-width : 1920px) {
+      .link--surinami {
+        font: 100 25px 'Kanit', helvetica, san-serif;
+      }
+
+    }
+
+    @media only screen and (max-width : 1620px) {
+      .link--surinami {
+        font: 100 35px 'Kanit', helvetica, san-serif;
+      }
+
+    }
+
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 1024px) {
