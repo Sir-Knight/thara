@@ -1,7 +1,6 @@
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import React, { Component } from 'react';
 import './CarouselView.css';
-import { Link } from "react-router-dom";
 import picturemain from './picturemain.jpg';
 import a3 from './A3.jpg'
 import picture1 from './picture1.jpg';
@@ -95,7 +94,7 @@ export default class CarouselView extends Component {
          transitionLeaveTimeout={500}
           >
             <div className="carousel_slide" key={index}>
-              <Link to='/about'><img src={src}/></Link>
+              <img src={src}/>
             </div>
           </ReactCSSTransitionGroup>
           <button className="carousel_control carousel_control__prev" onClick={this.handlerPrev}><span></span></button>

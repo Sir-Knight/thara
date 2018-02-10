@@ -34,7 +34,7 @@ nav {
 nav a.nav-brand {}
 
 .logo{
-  padding-top: 2%;
+  padding-top: 7%;
   width:520px;
   height: auto;
 }
@@ -333,6 +333,9 @@ nav a > img {
       }
       .overlay .menu-options-list {
         margin-top: 17%;
+      }
+      .menu-burger{
+        margin-left: 15px;
       }
 
     }
