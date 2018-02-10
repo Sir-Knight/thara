@@ -150,3 +150,16 @@ button:focus {outline:0;}
   opacity: 0.01;
    transition: opacity 500ms ease-in;
 }
+
+@media (min-width: 1024px) {
+  .carousel_slide img{
+    transform: scale(0.97,0.70);
+  }
+}
+
+@media (max-width: 900px) {
+  .carousel_slide img{
+    transform: scale(0.95,0.85);
+
+  }
+}
