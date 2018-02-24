@@ -44,6 +44,10 @@ nav a > img {
 	width: auto;
 }
 
+.nav-brand{
+  float: left;
+}
+
 /* @media (min-width: 789px) {
 	.menu-burger { display: none; }
 } */
@@ -53,15 +57,15 @@ nav a > img {
     height: 22px;
     cursor: pointer;
     display: inline-block;
-    align-items: center;
-    right: 50px;
-    margin: 35px 30px 0 0;
+    align-items: right;
+
     padding: 10px;
     padding-bottom: 5%;
+    float: right;
+
 }
 .menu-text{
   display: inline-block;
-  float: left;
   color: #f68f1c;
 	font: 100 30px 'Kanit', helvetica, san-serif;
 	letter-spacing: 1px;
@@ -70,6 +74,7 @@ nav a > img {
 .bar,
 .bar:after,
 .bar:before {
+  float: right;
 	height: 1px;
 	background: #f68f1c;
   display: inline-block;
@@ -81,7 +86,6 @@ nav a > img {
 
 .bar {
 	position: relative;
-	transform: translateY(10px);
 	transition: all 0ms 300ms;
 }
 
@@ -167,6 +171,7 @@ nav a > img {
 
 .link--surinami {
   font: 100 35px 'Kanit', helvetica, san-serif;
+  text-decoration: none;
   color:  #515751;
   letter-spacing: 2px;
   padding: 0 0 0.125em;
@@ -230,7 +235,23 @@ nav a > img {
   -webkit-transform: translate3d(5px, 0, 0);
   transform: translate3d(5px, 0, 0);
 }
+/*-------REGULAR MENU------*/
+.menu-regular-list{
+  list-style: none;
+ text-align: center;
+ padding: 0;
+ margin: 0;
+}
 
+.menu-list{
+  padding-right: 20px;
+  padding-top: 20px;
+  outline: none;
+  text-decoration: none;
+  position: relative;
+  line-height: 1;
+  display: inline-block;
+}
 /*-------------*/
 
 
@@ -314,34 +335,43 @@ nav a > img {
     @media only screen and (max-width : 1920px) {
       .link--surinami {
         font: 100 25px 'Kanit', helvetica, san-serif;
+        color: #f68f1c;
       }
 
     }
 
     @media only screen and (max-width : 1620px) {
       .link--surinami {
-        font: 100 30px 'Kanit', helvetica, san-serif;
+        font: 100 23px 'Kanit', helvetica, san-serif;
+        text-decoration: none;
       }
 
     }
 
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 1024px) {
-      .overlay .menu-option{
-        margin-left: 15%;
-      }
-      .overlay .menu-options-list {
-        margin-top: 17%;
-      }
+    @media only screen and (min-width : 1025px) {
       .menu-burger{
-        margin-left: 15px;
+         display: none!important;
+      }
+      .link--surinami span::before, .link--surinami span::after {
+        position: absolute;
+        color:  #515751;
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
       }
 
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
+      .menu-regular-list{
+      display: none!important;
+      }
+      .link--surinami {
+        color: #515751;
+      }
       .logo{
         padding-top: 10%;
         padding-left: 3%;
@@ -363,36 +393,44 @@ nav a > img {
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
+      .menu-regular-list{
+      display: none!important;
+      }
+
+      .link--surinami {
+        color: #515751;
+      }
       .logo{
         padding-top: 1%;
         padding-left: 1%;
         width:250px;
       }
       .menu-text{
-        margin-left: -15px;
-        float: left;
+        padding-left: 30%;
       	font: 100 18px 'Kanit', helvetica, san-serif;
       }
       .menu-burger{
         width: 150px;
       margin-top: 15px;
       margin-bottom: 30px;
+      float: right;
       }
       .bar{
         margin-top: 15px;
+        float: right;
       }
 
       .bar,
       .bar:after,
       .bar:before {
 
-        float: left;
+        float: right;
         -ms-transform: scale(0.75, 0.75); /* IE 9 */
         -webkit-transform: scale(0.75, 0.75); /* Safari */
         transform: scale(0.75, 0.75);
       }
       .bar.animate {
-      	width: 10px;
+      	width: 15px;
       }
       .link--surinami {
         font: 100 15px 'Kanit', helvetica, san-serif;
@@ -410,15 +448,26 @@ nav a > img {
 
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 365px) {
+      .menu-regular-list{
+      display: none!important;
+      }
+
+      .link--surinami {
+        color: #515751;
+      }
+
       .logo{
         padding-top: 8%;
         padding-left: 3%;
         width:220px;
       }
       .menu-text{
-      	font: 100 20px 'Kanit', helvetica, san-serif;
+
+        display: none!important;
+
       }
       .menu-burger{
+        float: left;
         padding-top: 15px;
         margin: 0;
         padding-left: 50px;
@@ -426,6 +475,7 @@ nav a > img {
       .bar,
       .bar:after,
       .bar:before {
+        float: left;
         -ms-transform: scale(0.75, 0.75); /* IE 9 */
         -webkit-transform: scale(0.75, 0.75); /* Safari */
         transform: scale(0.75, 0.75);
