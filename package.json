@@ -18,7 +18,8 @@
     "webpack": "^3.8.1"
   },
   "devDependencies": {
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "webpack-bundle-analyzer": "^2.10.1"
   },
   "scripts": {
     "start": "react-scripts start",

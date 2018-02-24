@@ -170,7 +170,7 @@ nav a > img {
 }
 
 .link--surinami {
-  font: 100 35px 'Kanit', helvetica, san-serif;
+  font: 100 1.5em 'Kanit', helvetica, san-serif;
   text-decoration: none;
   color:  #515751;
   letter-spacing: 2px;
@@ -334,7 +334,7 @@ nav a > img {
     }
     @media only screen and (max-width : 1920px) {
       .link--surinami {
-        font: 100 25px 'Kanit', helvetica, san-serif;
+        font: 100 1.5em 'Kanit', helvetica, san-serif;
         color: #f68f1c;
       }
 
@@ -342,7 +342,15 @@ nav a > img {
 
     @media only screen and (max-width : 1620px) {
       .link--surinami {
-        font: 100 23px 'Kanit', helvetica, san-serif;
+        font: 100 1.2em 'Kanit', helvetica, san-serif;
+        text-decoration: none;
+      }
+
+    }
+
+    @media only screen and (max-width : 1300px) {
+      .link--surinami {
+        font: 100 0.8em 'Kanit', helvetica, san-serif;
         text-decoration: none;
       }
 
@@ -350,7 +358,7 @@ nav a > img {
 
 
     /* Medium Devices, Desktops */
-    @media only screen and (min-width : 1025px) {
+    @media only screen and (min-width : 810px) {
       .menu-burger{
          display: none!important;
       }
@@ -365,7 +373,7 @@ nav a > img {
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
+    @media only screen and (max-width : 810px) {
       .menu-regular-list{
       display: none!important;
       }
