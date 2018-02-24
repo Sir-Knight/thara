@@ -348,7 +348,7 @@ nav a > img {
 
     }
 
-    @media only screen and (max-width : 1300px) {
+    @media only screen and (max-width : 1400px) {
       .link--surinami {
         font: 100 0.8em 'Kanit', helvetica, san-serif;
         text-decoration: none;
