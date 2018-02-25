@@ -226,6 +226,18 @@ transition: all 0.3s;
       .info-step{
         font: 200 15px 'Kanit', helvetica, san-serif;
       }
+      .info-eng{
+        font: 200 15px 'Trirong', serif;
+      }
+
+      .info-env{
+        font: 200 15px 'Trirong', serif;
+      }
+      .content-wrapper-info p {
+          text-align: justify;
+          font: 200 13px 'Trirong', serif;
+      }
+
       .bottom {
         margin-top: -25%;
       }
@@ -243,9 +255,4 @@ transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
       }
-    }
-
-    /* Custom, iPhone Retina */
-    @media only screen and (max-width : 320px) {
-
     }

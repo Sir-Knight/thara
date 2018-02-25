@@ -164,6 +164,10 @@ main {
       .news-step{
         font: 200 15px 'Kanit', helvetica, san-serif;
       }
+      .content-wrapper-news p {
+       text-align: left;
+         font: 200 13px 'Trirong', serif;
+      }
       .bottom {
         margin-top: -25%;
       }

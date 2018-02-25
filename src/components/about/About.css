@@ -86,6 +86,7 @@ background-color: #f8f7ee;
     font: 200 23px 'Trirong', serif;
 }
 
+
 .scroll-indicator {
   width: 24px;
   height: 24px;
@@ -133,7 +134,7 @@ background-color: #f8f7ee;
       .about-objective,
       .about-area,
       .about-scope{
-        font: 200 20px 'Trirong', serif;
+        font: 200 13px 'Trirong', serif;
       }
 
 
