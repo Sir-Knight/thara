@@ -58,8 +58,9 @@ componentDidMount() {
    <img src={area}  className="area" alt="area" />
    </section>
    <section className="about-scope">
-
-    </section>
+    <h1>ขั้นตอนและกิจกรรมของการดำเนินโครงการ</h1>
+    <img src="https://image.ibb.co/ipLhTH/image.png" alt="image" border="0" />
+  </section>
 </div>
  </main>
 

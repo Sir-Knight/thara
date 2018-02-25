@@ -1,4 +1,3 @@
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import React, { Component } from 'react';
 import './CarouselView.css';
 import { Carousel } from "react-responsive-carousel";
@@ -26,6 +25,12 @@ export default class CarouselView extends Component {
             <img src="https://image.ibb.co/fZEd2c/resized_resized_5.jpg" alt="resized_resized_5" border="0" />
            </div>
         </Carousel>
+
+        <div className="scroll-left">
+        <p>*ประกาศ* ขอเรียนเชิญเข้าร่วมการประชุมเพื่อหารื่อแนวทางการศึกษาผลกระทบสิ่งแวดล้อม ในวันจัน ที่ 26 ก.พ. 2561 เวลา 08.30 - 12.00 น.
+         ณ ห้องประชุม วี-วัน 2 (V-ONE 2) โรงแรม วี-วัน โคราช อำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา </p>
+        </div>
+
       </div>
    )
  }
