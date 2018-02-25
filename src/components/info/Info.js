@@ -93,7 +93,7 @@ componentDidMount() {
                         </Carousel>
                     </section>
                     <section className="info-env">
-                        <h1>การพบปะหารือพบปะหารือและแนะนำโครงการเมื่อวันที่ 20 กุมภาพันธ์ 2561</h1>
+                        <h1>การพบปะหารือและแนะนำโครงการเมื่อวันที่ 20 กุมภาพันธ์ 2561</h1>
                         <Carousel className="carousel-wrapper-info" autoPlay showThumbs={false} transitionTime={700} infiniteLoop={true} showStatus={false} showIndicators={false} stopOnHover={false}>
                             <div>
                                  <img src="https://image.ibb.co/jyOxCc/ex0.jpg" alt="ex0" border="0" />
