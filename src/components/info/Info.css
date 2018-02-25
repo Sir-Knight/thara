@@ -226,16 +226,17 @@ transition: all 0.3s;
       .info-step{
         font: 200 15px 'Kanit', helvetica, san-serif;
       }
-      .info-eng{
-        font: 200 15px 'Trirong', serif;
+      .list-info{
+        font-size: 15px;
       }
 
-      .info-env{
-        font: 200 15px 'Trirong', serif;
-      }
       .content-wrapper-info p {
           text-align: justify;
-          font: 200 13px 'Trirong', serif;
+          font: 200 15px 'Trirong', serif;
+      }
+
+      .content-wrapper-info h1 {
+          font-size: 17px;
       }
 
       .bottom {
