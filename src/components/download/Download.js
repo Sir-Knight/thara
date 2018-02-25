@@ -42,11 +42,11 @@ componentDidMount() {
   <div className="container-downloadable">
     <div className="row">
         <div className="col-sm-6 picture"><img src="https://image.ibb.co/ecLpAx/Cover.jpg" alt="Cover" border="0" /></div>
-        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/1Y9iDezOb1piiBBkjp5qIqROq6xuOq9-f/view">แผ่นพับของโครงการ</a></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/1Y9iDezOb1piiBBkjp5qIqROq6xuOq9-f/view" target="_blank">แผ่นพับของโครงการ</a></div>
     </div>
     <div className="row">
         <div className="col-sm-6 picture"><img src="https://image.ibb.co/hpTbqx/1_Cover.jpg" alt="1_Cover" border="0" /></div>
-        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/0B9joCKMnKZ6oMnlmNFB3THJFay1ENjBzbWVldE52QktsUTF3/view">เอกสารประกอบการประชุม ครั้งที่ 1</a></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/0B9joCKMnKZ6oMnlmNFB3THJFay1ENjBzbWVldE52QktsUTF3/view" target="_blank">เอกสารประกอบการประชุม ครั้งที่ 1</a></div>
     </div>
 
 </div>
