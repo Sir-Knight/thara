@@ -4,6 +4,10 @@ import $ from 'jquery';
 import tharaicon from './thara_logo.png';
 import tescoicon from './tesco_logo.png';
 import officeicon from './office_logo.png';
+import lineqr from './line_qr.jpg';
+import facebookqr from './facebook_qr.jpg';
+import emaillogo from './email_logo.png';
+
 
 export default class Contact extends Component {
 
@@ -114,10 +118,37 @@ export default class Contact extends Component {
           <h2>ด้านสิ่งแวดล้อม</h2>
         </div>
         <div className="right-column">
-              <p>งานด้านสิ่งแวดล้อม</p>
               <p>นายก้องเกียรติ  เรื่องศรี</p>
               <p>โทรศัพท์ : 0 2017 7281 – 2, 09 7148 0176</p>
               <p>โทรสาร : 0 2017 7882</p>
+        </div>
+      </div>
+
+      <div className="row">
+      <h1>ติดต่อทางสื่อต่างๆ</h1>
+        <div className="left-column">
+          <img src={emaillogo}  className="office" alt="office" />
+        </div>
+        <div className="right-column">
+            <h3>Email</h3><p> pradok.underpass@gmail.com</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="left-column">
+          <img src={lineqr}  className="office" alt="office" />
+        </div>
+        <div className="right-column">
+            <h3>Line ID</h3><p className="lineid">@qfj4944h</p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="left-column">
+          <img src={facebookqr}  className="office" alt="office" />
+        </div>
+        <div className="right-column">
+            <h3>Facebook Page</h3><a href="https://www.facebook.com/pradokunderpass" target="_blank">www.facebook.com/pradokunderpass</a>
         </div>
       </div>
 
