@@ -38,8 +38,18 @@ componentDidMount() {
 </div>
   <div className="content-wrapper-download">
   <section className="download-step">
-	<h1>ขั้นตอนการศึกษาทางด้านสิ่งแวดล้อม และกระบวนการมีส่วนร่วมของประชาชน</h1>
-  <a href="https://drive.google.com/uc?export=download&id=1gugNXElrfdVc58lNbXYPx9E3wYLqqFcc" className="effect1"></a>
+	<h1>รายการดาวน์โหลด เอกสารประชาสัมพันธ์</h1>
+  <div className="container-downloadable">
+    <div className="row">
+        <div className="col-sm-6 picture"><img src="https://image.ibb.co/ecLpAx/Cover.jpg" alt="Cover" border="0" /></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/1Y9iDezOb1piiBBkjp5qIqROq6xuOq9-f/view">แผ่นพับของโครงการ</a></div>
+    </div>
+    <div className="row">
+        <div className="col-sm-6 picture"><img src="https://image.ibb.co/hpTbqx/1_Cover.jpg" alt="1_Cover" border="0" /></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/0B9joCKMnKZ6oMnlmNFB3THJFay1ENjBzbWVldE52QktsUTF3/view">เอกสารประกอบการประชุม ครั้งที่ 1</a></div>
+    </div>
+
+</div>
   </section>
   </div>
 </main>

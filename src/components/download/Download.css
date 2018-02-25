@@ -18,6 +18,29 @@
      -ms-flex-pack: center;
          justify-content: center;
 }
+.row{
+  float: left;
+  padding-top: 50px;
+  padding-right: 150px;
+}
+
+.col-sm-6 {
+    min-height: calc(33.333vh - 20px);
+    color: white;
+    font-size: 20px;
+}
+.text {
+    font: 200 20px 'Trirong', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.picture img{
+    width:200px;
+    margin-bottom: 20px;
+}
 
 .header-background-download{
     width: 100%;
