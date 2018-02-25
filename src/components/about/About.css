@@ -56,26 +56,23 @@ background-color: #f8f7ee;
 
 .about-project{
   height: auto;
-  text-align: justify;
+  text-align: left;
   position: relative;
-  word-spacing: -4px;
   color: #7a817a;
     font: 200 23px 'Trirong', serif;
 }
 .about-objective{
   height: auto;
-  text-align: justify;
+  text-align: left;
   position: relative;
-  word-spacing: -4px;
   color: #7a817a;
   font: 200 23px 'Trirong', serif;
 }
 
 .about-area{
   height: auto;
-  text-align: justify;
+  text-align: left;
   position: relative;
-  word-spacing: -4px;
   color: #7a817a;
     font: 200 23px 'Trirong', serif;
 }
@@ -83,9 +80,8 @@ background-color: #f8f7ee;
 .about-scope{
   padding-bottom: 3%;
   height: auto;
-  text-align: justify;
+  text-align: left;
   position: relative;
-  word-spacing: -4px;
   color: #7a817a;
     font: 200 23px 'Trirong', serif;
 }

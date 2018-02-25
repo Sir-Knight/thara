@@ -1,201 +1,141 @@
 @import url('https://fonts.googleapis.com/css?family=Trirong:300,200');
 
-.Contact{
-  height:100%;
+.contact-frame{
+  margin: 0;
+ background-color: #f8f7ee;
+ position: relative;
+ height: 99%;
+ width: 100%;
+ overflow: auto;
+ overflow-x: hidden;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ font-family: "Lato";
+}
+
+.header-background-contact{
+    width: 100%;
+    height: 190px;
+  /*  background-color: rgba(89,104,105,1); */
   background-color: #f8f7ee;
-    overflow:auto;
+   position: fixed;
+   z-index: 15;
 }
 
-.padabove h1{
-  font-size: 50px;
+.content-wrapper-contact h1, p {
+  color: #7a817a;
+  font: 'Trirong', serif;
 }
 
-textarea{
-    overflow-y: hidden;
-}
-
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
-    outline: none;
-}
-#container {
-  margin:auto;
-  padding-top: 12%;
-  width:auto;
-  margin-bottom:50px;
-  overflow:auto;
-}
-
-#demo {
-  margin-left: -1%;
-  width:300px;
-  color: #6B6D76;
-  font: 200 10px 'Trirong', serif;
-  font-weight:300;
-  padding:10px;
-  text-align:left;
-  background:none;
-  overflow:auto;
-  float:left;
-  color:#fff;
-}
-
-#demo p{
-  font: 200 10px 'Trirong', serif;
-  text-align:left;
-    color: #6B6D76;
-
-}
-
-#demo h1{
-  color: #6B6D76;
-  font: 200 30px 'Trirong', serif;
-  text-align:center;
-  text-transform:uppercase;
-}
-
-#demo img{
-display:block;
-float:left;
-margin-right:10px;
-   border:0px solid #888;
-      	-moz-transition:all 0.1s ease-in-out;
-	-webkit-transition:all 0.1s ease-in-out;
-	-o-transition:all 0.1s ease-in-out;
-	-ms-transition:all 0.1s ease-in-out;
-	transition:all 0.1s ease-in-out;
-}
-
-/* Below is the design for the contact form */
-
-#contact-wrap {
-  margin-left: -2%;
-    font: 200 16px 'Trirong', serif;
-  width: 402px;
-    color: #F5F9E9;
-	overflow:auto;
-float:left;
-}
-
-#contact-area {
-  margin-left:3px;
-	width: 342px;
-
-  padding:20px;
-}
-
-#contact-area input, #contact-area textarea {
-	padding: 5px;
-	width: 342px;
-    font: 200 14px 'Trirong', serif;
-  color: #F5F9E9;
-      background-color:#d9dccb;
-      border-top: 1px solid transparent;
-      border-left: 1px solid transparent;
-      border-bottom: 1px solid #d9dccb;
-      border-right: 1px solid transparent;
-
-  margin-bottom:15px;
-}
-
-#contact-area textarea {
-	height: 150px;
-        background-color:#d9dccb;
-  border-top: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-bottom: 1px solid #d9dccb;
-  border-right: 1px solid transparent;
-
-}
-
-#contact-area textarea:focus, #contact-area input:focus {
-	        background-color:#333;
-      border-top: 1px solid transparent;
-      border-left: 1px solid transparent;
-      border-bottom: 1px solid #d9dccb;
-      border-right: 1px solid transparent;
-
-}
-
-#contact-area input.submit-button {
-  font: 200 12px 'Trirong', serif;
-  text-transform:uppercase;
-	width: 100px;
-	float: left;
-  background-color:#F68F1C;
-  border-top: 1px solid #F68F1C;
-  border-left: 1px solid #F68F1C;
-  border-bottom: 1px solid #F68F1C;
-  border-right: 1px solid #F68F1C;
-
-    	-moz-transition:all 0.1s ease-in-out;
-	-webkit-transition:all 0.1s ease-in-out;
-	-o-transition:all 0.1s ease-in-out;
-	-ms-transition:all 0.1s ease-in-out;
-	transition:all 0.1s ease-in-out;
-}
-
-#contact-area input.submit-button:hover {
-
-  color:#F68F1C;
-  background-color:#333;
-
-
-}
-
-label {
-	float: left;
-	text-align: left;
-	margin-right: 16px;
-	width: 100px;
-	padding-top: 5px;
-    font: 200 18px 'Trirong', serif;
-}
-
-
-
-::-webkit-input-placeholder {
-  color: #fff;
-
-  font-size:14px;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-  color: #fff;
-
-  font-size:14px;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-  color: #fff;
-
-  font-size:14px;
-}
-
-:-ms-input-placeholder {
-   color: #fff;
-
-  font-size:14px;
-}
-
-.company{
-  margin-left: -1%;
+.content-wrapper-contact p {
   text-align: left;
-  background:none;
-  overflow:auto;
-  float:left;
-  font: 300 14px 'Trirong', serif;
+    font: 200 23px 'Trirong', serif;
+}
+.content-wrapper-contact{
+  width: 80%;
+  padding-top: 5%;
+  margin: 0 auto;
 }
 
-.company p{
-  color: black;
-   margin:0
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.wrapper-header{
+  width:100%;
+}
+.contact-wrapper-background{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f8f7ee;
 }
 
-.company img{
-  padding-bottom: 15px;
+.sticky{
+  top:25px;
+  position: fixed;
+  font-size:30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #F68F1C;
+}
+
+.contact-step{
+  padding-bottom: 3%;
+  height: auto;
+  text-align: left;
+  position: relative;
+  word-spacing: -4px;
+  color: #6B6D76;
+  font: 200 27px 'Trirong', serif;
+}
+
+.bottom {
+  margin-top: -6%;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.sticky-bottom{
+  visibility: hidden;
+}
+
+.scroll-indicator {
+  width: 24px;
+  height: 24px;
+  margin: 16px auto;
+  cursor: pointer;
+  border-right: 2px solid #6B6D76;
+  border-bottom: 2px solid #6B6D76;
+  border-bottom-right-radius: 2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.row{
+  padding-top: 50px;
+  width:100%;
+  height: auto;
+}
+
+.left-column{
+  width:30%;
+    float: left;
+}
+
+.right-column{
+  width:50%;
+  float: left;
 }
 
 .office{
@@ -217,102 +157,88 @@ padding-bottom: 10px;
       float:left;
 padding-bottom: 10px;
 }
-@media only screen and (max-width : 1600px) {
-  .company{
-    margin-top: -4%;
-    -ms-transform: scale(0.70, 0.70); /* IE 9 */
-    -webkit-transform: scale(0.70, 0.70); /* Safari */
-    transform: scale(0.70, 0.70);
+
+@media (max-width: 500px) {
+  .row{
+    text-align: center;
   }
-  .office{
-    padding-right: 100px;
-    padding-bottom: 30px;
+  .left-column{
+    width:100%;
+      float: left;
   }
 
-  .thara{
-  padding-right: 100px;
-  padding-bottom: 10px;
+  .left-column img{
+    display:block;
+    margin-left: 40px;
   }
 
-  .tesco{
-  padding-bottom: 10px;
+
+  .right-column {
+    width: 100%;
+     margin-top: 20px;
+     margin-right: 120px;
+  }
+
+  .right-column p{
+    font-size: 16px;
+    color: #7a817a;
   }
 }
+
+
+
 /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
 
     }
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 1024px) {
-      #demo{
+    @media only screen and (max-width : 992px) {
 
-        margin-top: 15%;
-
-      }
-      #contact-area {
-        margin-top: 20%;
-
-      }
-      .company{
-       padding-top: 70px;
-       margin-left: 50px;
-      }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-      #demo{
-
-        margin-top: 15%;
-
+      .bottom {
+        margin-top: -12%;
       }
-      #contact-area {
-        margin-top: 20%;
-        -ms-transform: scale(0.95, 0.95); /* IE 9 */
-        -webkit-transform: scale(0.95, 0.95); /* Safari */
-        transform: scale(0.95, 0.95);
+      .sticky{
+        padding-top: 150px;
+          padding-left: 0;
+        top:10px;
+        position: fixed;
+        font-size:40px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
       }
-      #contact-wrap {
-          font: 200 16px 'Trirong', serif;
-        width: 302px;
-        margin-left: 3%;
-          color: #F5F9E9;
-      float:left;
+      header {
+        height: 10vh;
       }
-      .company{
-       padding-top: 70px;
-       margin-left: -50px;
-      }
-      .thara{
-        margin-top: -5%;
-      }
-
     }
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
-     #demo{
-       margin-left: 7%;
-
-     }
-     #contact-area {
-       -ms-transform: scale(0.85, 0.85); /* IE 9 */
-       -webkit-transform: scale(0.85, 0.85); /* Safari */
-       transform: scale(0.85, 0.85);
-     }
-     #contact-wrap {
-         font: 200 16px 'Trirong', serif;
-       width: 302px;
-       margin-left: 3%;
-         color: #F5F9E9;
-     float:left;
-     }
-     .company{
-       margin-top: -50%;
-       margin-left: 8%;
-     }
-
+      .contact-step{
+        font: 200 15px 'Kanit', helvetica, san-serif;
+      }
+      .bottom {
+        margin-top: -25%;
+      }
+      header {
+        font: 200 20px 'Kanit', helvetica, san-serif;
+        height: 10vh;
+      }
+      .sticky{
+        padding-top: 60px;
+        padding-left: 0;
+        top:10px;
+        position: fixed;
+        font-size:10px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+      }
     }
 
     /* Custom, iPhone Retina */
