@@ -74,7 +74,7 @@ componentDidMount() {
                     <section className="info-env">
                         <h1>ด้านการมีส่วนร่วมของประชาชน</h1>
                         <p>
-                         การพบปะหารือพบปะหารือ และแนะนำโครงการแก่ ผู้นำชุมชน กำนันและผู้ใหญ่บ้าน
+                         การพบปะหารือ และแนะนำโครงการแก่ ผู้นำชุมชน กำนันและผู้ใหญ่บ้าน
                        </p>
                        <p>เมื่อวันที่ 23 – 24 ธันวาคม 2560</p>
                        <Carousel className="carousel-wrapper-info" autoPlay showThumbs={false} transitionTime={700} infiniteLoop={true} showStatus={false} showIndicators={false} stopOnHover={false}>
