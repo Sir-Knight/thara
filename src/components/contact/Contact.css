@@ -35,7 +35,7 @@
 }
 
 .content-wrapper-contact p {
-  text-align: left;
+    text-align: justify;
     font: 200 23px 'Trirong', serif;
 }
 .content-wrapper-contact{
@@ -83,9 +83,8 @@ main {
 .contact-step{
   padding-bottom: 3%;
   height: auto;
-  text-align: left;
+    text-align: justify;
   position: relative;
-  word-spacing: -4px;
   color: #6B6D76;
   font: 200 27px 'Trirong', serif;
 }

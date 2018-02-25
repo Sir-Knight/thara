@@ -88,7 +88,7 @@ main {
 .news-step{
   padding-bottom: 3%;
   height: auto;
-  text-align: left;
+    text-align: justify;
   position: relative;
   word-spacing: -4px;
   color: #6B6D76;
