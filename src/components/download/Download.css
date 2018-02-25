@@ -203,7 +203,7 @@ a.effect1:hover:after {
         margin-top: -25%;
       }
       header {
-        font: 200 30px 'Kanit', helvetica, san-serif;
+        font: 200 20px 'Kanit', helvetica, san-serif;
         height: 10vh;
       }
       .sticky{
@@ -211,7 +211,7 @@ a.effect1:hover:after {
         padding-left: 0;
         top:10px;
         position: fixed;
-        font-size:15px;
+        font-size:10px;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
