@@ -11,7 +11,7 @@ import Engineering from './components/engineering/Engineering';
 import Environment from './components/environment/Environment';
 import Local from './components/local/Local';
 import Download from './components/download/Download';
-
+import News from './components/news/News';
 
 
 
@@ -35,6 +35,7 @@ const Routes = (props) => {
                       <Route path="/environment" component={Environment} />
                       <Route path="/local" component={Local} />
                       <Route path="/download" component={Download} />
+                      <Route path="/news" component={News} />
                       <Route path="/info" component={Info} />
                       <Route path="/contact" component={Contact} />
                       </Switch>

@@ -15,6 +15,7 @@
 .scroll-left {
  left:0px;
  bottom:50px;
+ cursor: pointer;
  width: 1920px;
  height: 50px;
  overflow: hidden;

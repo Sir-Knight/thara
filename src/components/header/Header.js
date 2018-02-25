@@ -44,6 +44,7 @@ componentDidMount(){
                   <li className="menu-list"><Link className="link--surinami" to='/'><span data-letters-l="หน้า" data-letters-r="หลัก">หน้าหลัก</span></Link></li>
                   <li className="menu-list"><Link className="link--surinami" to='/about'><span data-letters-l="เกี่ยวกับ" data-letters-r="โครงการ">เกี่ยวกับโครงการ</span></Link></li>
                   <li className="menu-list"><Link className="link--surinami" to='/info'><span data-letters-l="ความก้าวหน้า" data-letters-r="ของโครงการ">ความก้าวหน้าของโครงการ</span></Link></li>
+                  <li className="menu-list"><Link className="link--surinami" to='/news'><span data-letters-l="ข่าว" data-letters-r="สาร">ข่าวสาร</span></Link></li>
                   <li className="menu-list"><Link className="link--surinami" to='/contact'><span data-letters-l="ติด" data-letters-r="ต่อ">ติดต่อ</span></Link></li>
                 </ul>
               </div>
@@ -54,6 +55,7 @@ componentDidMount(){
                 <li className="menu-option option-1"><Link className="link link--surinami" to='/'><span data-letters-l="หน้า" data-letters-r="หลัก">หน้าหลัก</span></Link></li>
                 <li className="menu-option option-2"><Link className="link link--surinami" to='/about'><span data-letters-l="เกี่ยวกับ" data-letters-r="โครงการ">เกี่ยวกับโครงการ</span></Link></li>
                 <li className="menu-option option-7"><Link className="link link--surinami" to='/info'><span data-letters-l="ความก้าวหน้า" data-letters-r="ของโครงการ">ความก้าวหน้าของโครงการ</span></Link></li>
+                <li className="menu-option option-9"><Link className="link link--surinami" to='/news'><span data-letters-l="ข่าว" data-letters-r="สาร">ข่าวสาร</span></Link></li>
                 <li className="menu-option option-8"><Link className="link link--surinami" to='/contact'><span data-letters-l="ติด" data-letters-r="ต่อ">ติดต่อ</span></Link></li>
               </ul>
           </div>

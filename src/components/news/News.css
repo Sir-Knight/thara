@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong:300,200');
+
+.news-frame{
+  margin: 0;
+ background-color: #f8f7ee;
+ position: relative;
+ height: 99%;
+ width: 100%;
+ overflow: auto;
+ overflow-x: hidden;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+}
+
+.image-wrapper img{
+  width:100%;
+  height:auto;
+}
+
+.header-background-news{
+    width: 100%;
+    height: 190px;
+  /*  background-color: rgba(89,104,105,1); */
+  background-color: #f8f7ee;
+   position: fixed;
+   z-index: 15;
+}
+
+.content-wrapper-news h1, p {
+  color: #7a817a;
+  font: 'Trirong', serif;
+}
+
+.content-wrapper-news p {
+ text-align: justify;
+   font: 200 23px 'Trirong', serif;
+}
+.content-wrapper-news{
+  width: 80%;
+  padding-top: 5%;
+  margin: 0 auto;
+}
+
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.wrapper-header{
+  width:100%;
+}
+.news-wrapper-background{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f8f7ee;
+}
+
+.sticky{
+  top:25px;
+  position: fixed;
+  font-size:30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #6B6D76;
+}
+
+.news-step{
+  padding-bottom: 3%;
+  height: auto;
+  text-align: left;
+  position: relative;
+  color: #6B6D76;
+  font: 200 27px 'Trirong', serif;
+}
+
+.bottom {
+  margin-top: -6%;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.sticky-bottom{
+  visibility: hidden;
+}
+
+.scroll-indicator {
+  width: 24px;
+  height: 24px;
+  margin: 16px auto;
+  cursor: pointer;
+  border-right: 2px solid #6B6D76;
+  border-bottom: 2px solid #6B6D76;
+  border-bottom-right-radius: 2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .bottom {
+        margin-top: -12%;
+      }
+      .sticky{
+        padding-top: 150px;
+          padding-left: 0;
+        top:10px;
+        position: fixed;
+        font-size:40px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+      header {
+        height: 10vh;
+      }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+      .news-step{
+        font: 200 15px 'Kanit', helvetica, san-serif;
+      }
+      .bottom {
+        margin-top: -25%;
+      }
+      header {
+        font: 200 30px 'Kanit', helvetica, san-serif;
+        height: 10vh;
+      }
+      .sticky{
+        padding-top: 60px;
+        padding-left: 0;
+        top:10px;
+        position: fixed;
+        font-size:15px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
