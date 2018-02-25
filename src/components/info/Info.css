@@ -87,6 +87,7 @@ main {
   height: auto;
   text-align: left;
   position: relative;
+  word-spacing: -4px;
   color: #6B6D76;
   font: 200 27px 'Trirong', serif;
 }
@@ -96,6 +97,7 @@ main {
   height: auto;
   text-align: left;
   position: relative;
+  word-spacing: -4px;
   color: #6B6D76;
   font: 200 27px 'Trirong', serif;
 }
