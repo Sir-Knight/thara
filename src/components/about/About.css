@@ -128,7 +128,7 @@ background-color: #f8f7ee;
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
       .about-wrapper-background{
-        margin-top: -5%;
+        margin-top: -7%;
       }
       .area{
         width: 300px;

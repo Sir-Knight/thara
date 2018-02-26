@@ -214,7 +214,7 @@ a.effect1:hover:after {
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
       .download-wrapper-background{
-       margin-top: -5%;
+       margin-top: -7%;
       }
       a.effect1 {
           font: 200 20px 'Kanit', helvetica, san-serif;
