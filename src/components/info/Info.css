@@ -223,6 +223,9 @@ transition: all 0.3s;
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
+      .info-wrapper-background{
+        margin-top: -5%;
+      }
       .info-step{
         font: 200 15px 'Kanit', helvetica, san-serif;
       }

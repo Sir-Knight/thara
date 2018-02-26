@@ -160,6 +160,9 @@ main {
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
+      .news-wrapper-background{
+        margin-top: -5%;
+      }
       .news-step{
         font: 200 15px 'Kanit', helvetica, san-serif;
       }

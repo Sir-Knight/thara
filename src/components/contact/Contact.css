@@ -219,6 +219,10 @@ padding-bottom: 10px;
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
+      .contact-wrapper-background{
+      margin-top: -5%;
+      }
+
       .contact-step{
         font: 200 15px 'Kanit', helvetica, san-serif;
       }
