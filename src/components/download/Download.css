@@ -18,10 +18,16 @@
      -ms-flex-pack: center;
          justify-content: center;
 }
+
+.container-downloadable{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 .row{
   float: left;
   padding-top: 50px;
-  padding-right: 150px;
+  width: 33.33%;
 }
 
 .col-sm-6 {
@@ -138,49 +144,6 @@ main {
           animation-timing-function: linear;
 }
 
-a.effect1 {
-  box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  color: #F68F1C;
-  text-decoration: none;
-  margin: 30px;
-  width: 250px;
-  height: 100px;
-  border: 3px solid;
-    font: 200 30px 'Trirong', serif;
-}
-a.effect1:after{
-  box-sizing: border-box;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  line-height: 100px;
-  content: 'ดาวน์โหลดเอกสาร';
-
-  -webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-a.effect1:before {
-  box-sizing: border-box;
-  content: '';
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  height: 100%;
-  background: #F68F1C;
-
-  -webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-a.effect1:hover:before {
-  top: 0;
-}
-a.effect1:hover:after {
-  color: white;
-}
-
 /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
 
@@ -242,6 +205,9 @@ a.effect1:hover:after {
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
+      }
+      .row{
+        width: 100%;
       }
     }
 
