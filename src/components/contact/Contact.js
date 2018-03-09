@@ -133,7 +133,7 @@ export default class Contact extends Component {
           <img src={emaillogo}  className="office" alt="office" />
         </div>
         <div className="right-column">
-            <h3>Email</h3><p> pradok.underpass@gmail.com</p>
+            <h3>Email:</h3><p> pradok.underpass@gmail.com</p>
         </div>
       </div>
 
@@ -142,7 +142,7 @@ export default class Contact extends Component {
           <img src={lineqr}  className="office" alt="office" />
         </div>
         <div className="right-column">
-            <h3>Line ID</h3><p className="lineid">@qfj4944h</p>
+            <h3>Line ID:</h3><p className="lineid">@qfj4944h</p>
         </div>
       </div>
 
@@ -151,7 +151,7 @@ export default class Contact extends Component {
           <img src={facebookqr}  className="office" alt="office" />
         </div>
         <div className="right-column">
-            <h3>Facebook Page</h3><a href="https://www.facebook.com/pradokunderpass" target="_blank">www.facebook.com/pradokunderpass</a>
+            <h3>Facebook Page:</h3><a href="https://www.facebook.com/pradokunderpass" target="_blank">www.facebook.com/pradokunderpass</a>
         </div>
       </div>
 
