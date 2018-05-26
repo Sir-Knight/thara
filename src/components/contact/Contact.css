@@ -125,8 +125,9 @@ main {
   padding-top: 50px;
   width:100%;
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
+
 
 .left-column{
   width:30%;
@@ -193,8 +194,12 @@ padding-bottom: 10px;
     }
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
-
+    @media only screen and (min-width : 992px) {
+      .right-column{
+        width:50%;
+        float: left;
+        padding-right: 150px;
+      }
     }
 
     /* Small Devices, Tablets */

@@ -24,7 +24,7 @@
   height: auto;
   margin: 0 auto;
 }
-.row{
+.row-download{
   float: left;
   padding-top: 50px;
   width: 33.33%;
@@ -206,7 +206,7 @@ main {
         -moz-transition: all 0.3s;
         transition: all 0.3s;
       }
-      .row{
+      .row-download{
         width: 100%;
       }
     }
