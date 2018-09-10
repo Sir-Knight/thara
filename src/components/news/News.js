@@ -56,6 +56,16 @@ componentDidMount() {
    <div className="image-wrapper">
    <img src="https://image.ibb.co/eOfG5x/A3.jpg" alt="A3" border="0" />
    </div>
+
+   <hr />
+     <h4> 10 กันยายน 2561 </h4>
+    <p>ขอเรียนเชิญเข้าร่วมการประชุมเพื่อหารื่อมาตรการป้องกัน แก้ไข และลดผลกระทบสิ่งแวดล้อม ในวันพฤหัสบดี ที่ 20 ก.ย. 2561 เวลา 09.00 - 12.00 น.
+     ณ ห้องประชุม วี-วัน 1 (V-ONE 1) โรงแรม วี-วัน โคราช อำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา</p>
+     <div className="image-wrapper">
+     <img src="https://image.ibb.co/jeL7up/A3_optimized.jpg" alt="A3_2" border="0" />
+     </div>
+
+
   </section>
   </div>
 </main>
