@@ -9,14 +9,24 @@ export default class CarouselView extends Component {
    return (
      <div className="carousel-view">
 
-     <div className="image-wrapper-carousel">
-     <img src="https://image.ibb.co/jeL7up/A3_optimized.jpg" alt="A3_2" border="0" />
-     </div>
 
-       <div className="scroll-left">
-        <p>*ประกาศ* ขอเรียนเชิญเข้าร่วมการประชุมเพื่อหารื่อมาตรการป้องกัน แก้ไข และลดผลกระทบสิ่งแวดล้อม ในวันพฤหัสบดี ที่ 20 ก.ย. 2561 เวลา 09.00 - 12.00 น.
-         ณ ห้องประชุม วี-วัน 1 (V-ONE 1) โรงแรม วี-วัน โคราช อำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา </p>
-       </div>
+     <Carousel className="carousel-wrapper" autoPlay showThumbs={false} transitionTime={700} infiniteLoop={true} showStatus={false} showIndicators={false} stopOnHover={false}>
+                <div>
+                  <img src="https://image.ibb.co/kd3GoH/resized_resized_1.jpg" alt="resized_resized_1" border="0" />
+                </div>
+                <div>
+                  <img src="https://image.ibb.co/fsnLFx/resized_resized_2.jpg" alt="resized_resized_2" border="0" />
+                </div>
+                <div>
+                 <img src="https://image.ibb.co/hgMQhc/resized_resized_3.jpg" alt="resized_resized_3" border="0" />
+                </div>
+                <div>
+                 <img src="https://image.ibb.co/d65khc/resized_resized_4.jpg" alt="resized_resized_4" border="0" />
+                </div>
+                <div>
+                 <img src="https://image.ibb.co/fZEd2c/resized_resized_5.jpg" alt="resized_resized_5" border="0" />
+                </div>
+             </Carousel>
 
       </div>
    )

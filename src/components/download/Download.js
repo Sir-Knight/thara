@@ -54,6 +54,11 @@ componentDidMount() {
         <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/1_kqedYRRUOFKWe0Rsh8YVgK8SSCoUPep/view" target="_blank">สรุปผลของการประชุม ครั้งที่ 1</a></div>
     </div>
 
+    <div className="row-download">
+        <div className="col-sm-6 picture"><img src="https://image.ibb.co/kVHuoe/PR_PP_02.jpg" alt="PR_PP_02" border="0" /></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/12erefZ50hClcfuP0v0PlNOL0U-fKWiRM/view" target="_blank">สรุปผลของการประชุม ครั้งที่ 2</a></div>
+    </div>
+
 </div>
   </section>
   </div>
