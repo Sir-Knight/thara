@@ -65,6 +65,14 @@ componentDidMount() {
      <img src="https://image.ibb.co/jeL7up/A3_optimized.jpg" alt="A3_2" border="0" />
      </div>
 
+     <hr />
+       <h4> 19 ตุลาคม 2561 </h4>
+      <p>ขอเรียนเชิญเข้าร่วมการประชุมสรุปผลการศึกษาผลกระทบสิ่งแวดล้อม ในวันอังคาร ที่ 30 ต.ค. 2561 เวลา 08.30 - 12.00 น.
+       ณ ห้องประชุม วี-วัน 2 (V-ONE 2) โรงแรม วี-วัน โคราช อำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา</p>
+       <div className="image-wrapper">
+       <img src="https://image.ibb.co/nh7yLf/M302A3.jpg" alt="M302A3" border="0" />
+       </div>
+
 
   </section>
   </div>

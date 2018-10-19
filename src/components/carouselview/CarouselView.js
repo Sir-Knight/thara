@@ -9,24 +9,14 @@ export default class CarouselView extends Component {
    return (
      <div className="carousel-view">
 
+     <div className="image-wrapper-carousel">
+        <img src="https://image.ibb.co/nh7yLf/M302A3.jpg" alt="M302A3" border="0" />
+    </div>
 
-     <Carousel className="carousel-wrapper" autoPlay showThumbs={false} transitionTime={700} infiniteLoop={true} showStatus={false} showIndicators={false} stopOnHover={false}>
-                <div>
-                  <img src="https://image.ibb.co/kd3GoH/resized_resized_1.jpg" alt="resized_resized_1" border="0" />
-                </div>
-                <div>
-                  <img src="https://image.ibb.co/fsnLFx/resized_resized_2.jpg" alt="resized_resized_2" border="0" />
-                </div>
-                <div>
-                 <img src="https://image.ibb.co/hgMQhc/resized_resized_3.jpg" alt="resized_resized_3" border="0" />
-                </div>
-                <div>
-                 <img src="https://image.ibb.co/d65khc/resized_resized_4.jpg" alt="resized_resized_4" border="0" />
-                </div>
-                <div>
-                 <img src="https://image.ibb.co/fZEd2c/resized_resized_5.jpg" alt="resized_resized_5" border="0" />
-                </div>
-             </Carousel>
+    <div className="scroll-left">
+      <p>*ประกาศ* ขอเรียนเชิญเข้าร่วมการประชุมสรุปผลการศึกษาผลกระทบสิ่งแวดล้อม ในวันอังคาร ที่ 30 ต.ค. 2561 เวลา 08.30 - 12.00 น.
+       ณ ห้องประชุม วี-วัน 2 (V-ONE 2) โรงแรม วี-วัน โคราช อำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา</p>
+     </div>
 
       </div>
    )
