@@ -1,22 +1,30 @@
 import React, { Component } from 'react';
 import './CarouselView.css';
 import { Carousel } from "react-responsive-carousel";
+import YouTube from 'react-youtube';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default class CarouselView extends Component {
 
  render(){
+
+   const opts = {
+     height: '360',
+     width: '640',
+     playerVars: { // https://developers.google.com/youtube/player_parameters
+       autoplay: 1
+     }
+   };
+
    return (
      <div className="carousel-view">
 
-     <div className="image-wrapper-carousel">
-        <img src="https://image.ibb.co/nh7yLf/M302A3.jpg" alt="M302A3" border="0" />
-    </div>
-
-    <div className="scroll-left">
-      <p>*ประกาศ* ขอเรียนเชิญเข้าร่วมการประชุมสรุปผลการศึกษาผลกระทบสิ่งแวดล้อม ในวันอังคาร ที่ 30 ต.ค. 2561 เวลา 08.30 - 12.00 น.
-       ณ ห้องประชุม วี-วัน 2 (V-ONE 2) โรงแรม วี-วัน โคราช อำเภอเมืองนครราชสีมา จังหวัดนครราชสีมา</p>
-     </div>
+     <YouTube
+       videoId="3HQeRJTJU2c"
+       opts={opts}
+       className="Youtubevideo"
+       onReady={this._onReady}
+     />
 
       </div>
    )

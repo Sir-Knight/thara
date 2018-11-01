@@ -59,6 +59,21 @@ componentDidMount() {
         <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/12erefZ50hClcfuP0v0PlNOL0U-fKWiRM/view" target="_blank">สรุปผลของการประชุม ครั้งที่ 2</a></div>
     </div>
 
+    <div className="row-download">
+        <div className="col-sm-6 picture"><img src="https://image.ibb.co/eVLdYL/3.jpg" alt="เอกสารประกอบการประชุมครั้งที่3" border="0" /></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/1ctNCy3G16_o5Nw_GVK-swQrIXHtzi8Wy/view" target="_blank">เอกสารประกอบการประชุม ครั้งที่ 3</a></div>
+    </div>
+
+    <div className="row-download">
+        <div className="col-sm-6 picture"><img src="https://image.ibb.co/k7W7Sf/PRPP03.jpg" alt="PR_PP_03" border="0" /></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/1RKFD3bRA15L7H4s9L6hnsuNA9Usc_4pp/view" target="_blank">สรุปผลของการประชุม ครั้งที่ 3</a></div>
+    </div>
+
+    <div className="row-download">
+        <div className="col-sm-6 picture"><img src="https://image.ibb.co/dQR7Sf/Beochure-M3.jpg" alt="BrochureM3" border="0" /></div>
+        <div className="col-sm-6 text"><a href="https://drive.google.com/file/d/1vinjBcueqMcGsZmGNNovVjmvuy7y8UaL/view" target="_blank">โบรชัวร์</a></div>
+    </div>
+
 </div>
   </section>
   </div>
